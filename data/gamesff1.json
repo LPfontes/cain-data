@@ -1,0 +1,313 @@
+{
+  "id": "gamesff1",
+  "name": "Games for Freaks Vol. 1 — Virtudes & Altas Blasfêmias",
+  "version": "1.0",
+  "author": "Games for Freaks",
+  "description": "Suplemento contendo as 7 Virtudes de CAIN e as 6 Altas Blasfêmias (Lei, Nulo, Entrelaçar, Força, Véu, Acordo).",
+  "enabled": false,
+  "isBase": false,
+  "data": {
+    "virtues": {
+      "prudence": {
+        "name": "Prudência",
+        "title": "A Negociadora",
+        "desc": "A portadora da poderosa blasfêmia Acordo, Prudência é uma Virtude amigável e carismática com uma agenda muito ocupada. Além de ser uma combatente poderosa, Prudência desempenha um papel vital tanto na estrutura interna da CAIN quanto em seu relacionamento com governos mundanos devido à sua habilidade única de impor acordos. Ela possui múltiplas identidades de fachada, fala vários idiomas e, no geral, passa muito pouco tempo na 'geladeira', pois a CAIN a destaca em missões de longo alcance e longa duração.<br><br>Quando aparece em público, está sempre excepcionalmente bem vestida e articulada. Como emissária de frente da CAIN para governos humanos, sua identidade tem sido objeto de especulação entre teóricos da conspiração online, algo que a organização tem tentado veementemente suprimir.",
+        "likes": [
+          "Whisky puro",
+          "Romances",
+          "Trens",
+          "Caminhadas longas"
+        ],
+        "dislikes": [
+          "Caridade",
+          "Justiça",
+          "Explicar coisas para pessoas lentas"
+        ],
+        "favorite_food": [
+          "Nozes"
+        ],
+        "bond": {
+          "strictures": [
+            "Ignore por uma rolagem sofrendo 1d3 de estresse não letal",
+            "Você deve honrar todos os acordos e promessas.",
+            "Role 0d ao escolher violência em vez de negociação."
+          ],
+          "abilities": {
+            "0": "Quando você aperta a mão de um humano disposto em um acordo ou promessa, se alguém o quebrar, essa pessoa sofre morte instantânea. Isso se aplica a você, e tanto você quanto seu alvo estão cientes dos efeitos.",
+            "I": "Ganhe a blasfêmia Acordo. Pode usá-la uma vez por missão.",
+            "II": "Sua habilidade de rank 0 agora se aplica a exorcistas e pecados.",
+            "III": "Você pode usar Acordo mais uma vez durante uma missão, mas se o fizer, o Mestre escolhe o jogo."
+          }
+        }
+      },
+      "hope": {
+        "name": "Esperança",
+        "title": "A Sonhadora",
+        "desc": "Esperança está entre os ativos mais valiosos que a CAIN possui. Tipicamente abençoada com fortes habilidades precognitivas e telepáticas, sua capacidade de suportar a alta blasfêmia Véu tem sido um pilar da atividade da organização por centenas de anos e permitiu que a CAIN operasse em segredo mesmo nas circunstâncias mais terríveis.<br><br>Diferente da maioria das outras blasfêmias, o poder total do Véu pode ser imbuído e passado para outros portadores, escolhidos de um grupo de exorcistas de extrema força mental e cognitiva. Houve uma longa linhagem de Esperanças (a atual é a quadragésima primeira) desde o início da organização, e elas são tipicamente aposentadas* quando o estresse do Véu se prova grande demais para suportar.<br><br>Devido ao seu papel importante na organização, Esperança nunca tem permissão para deixar a estação orbital SERAPH a menos em circunstâncias extremas, ou uma vez por ano no Natal.<br><br>*Ver nota da doutrina CASTLE C0447.",
+        "likes": [
+          "Video Games",
+          "Banhos Luxuosos",
+          "Feriados"
+        ],
+        "dislikes": [
+          "Barulhos Altos",
+          "Pessoas Intrometidas",
+          "Justiça",
+          "Fortitude"
+        ],
+        "favorite_food": [
+          "Refeição pré-embalada 402A"
+        ],
+        "bond": {
+          "strictures": [
+            "Ignore por uma rolagem sofrendo 1d3 de estresse não letal",
+            "Você não pode realizar ações que seriam barulhentas ou atrair atenção.",
+            "Você rola 0d para ações de preparação"
+          ],
+          "abilities": {
+            "0": "Uma vez por missão, você pode rolar novamente qualquer ação feita em furtividade ou para evitar ser notado, considerando o segundo resultado como definitivo.",
+            "I": "Ganhe a blasfêmia Véu. Pode usá-la uma vez por missão.",
+            "II": "Humanos mundanos sempre esquecem que você estava lá se você ficar fora da vista por 77 segundos ou mais. Você não pode desligar esta habilidade.",
+            "III": "Você pode usar Véu para apagar memória por períodos mais longos. Veja a tabela na página seguinte. Quando usado em sua capacidade total, Véu pode apagar e reformular a memória de milhares, senão centenas de milhares de pessoas, por dias seguidos. Este uso tipicamente mata Esperança."
+          }
+        }
+      },
+      "fortitude": {
+        "name": "Fortitude",
+        "title": "O Desastre",
+        "desc": "Considerada uma 'arma reservada para eliminações de nível calamidade', e uma das únicas exorcistas na história consideradas próximas de exceder a categoria 7 em suas habilidades, Fortitude é mantida em um ciclo rigoroso de inatividade e contenção. Uma lutadora extremamente volátil e potente, sua habilidade de executar pecados é igualada apenas por sua sede de destruição completa e desenfreada. Liberar Fortitude em uma situação é frequentemente o equivalente a tentar quebrar uma noz com uma prensa hidráulica de nível industrial.<br><br>A alta blasfêmia de Fortitude, Força, permite habilidades físicas incomparáveis, mas sem treinamento adequado, seus usuários podem literalmente se despedaçar. Seu desprezo marcante pela vida humana e misantropia desenfreada a tornaram relativamente impopular nos escalões superiores da organização, e ela tem relativamente poucos admiradores, mesmo entre os exorcistas juniores mais pessimistas.<br><br>Há uma divisão especial da divisão de armas de CASTLE chamada 'Divisão Break' dedicada a 'temperar' armas para Fortitude usar, pois sem materiais adequados elas não suportam as forças físicas envolvidas. A equipe de pesquisa especializada tem grande prazer em seu trabalho, e suas descobertas avançaram muito o armamento da CAIN.",
+        "likes": [
+          "Lutar",
+          "Fortes",
+          "Oponentes"
+        ],
+        "dislikes": [
+          "Humanos",
+          "Exorcistas",
+          "Todas as outras virtudes",
+          "Pecados",
+          "Liderança da CAIN"
+        ],
+        "favorite_food": [
+          "Cachorro-quente* *De acordo com o adendo 3004 de CASTLE, o sujeito só pode consumir pasta nutricional"
+        ],
+        "bond": {
+          "strictures": [
+            "Ignore por uma rolagem sofrendo 1d3 de estresse não letal",
+            "Você não pode perder a oportunidade de entrar em uma briga",
+            "Role 0d em ações que exigiriam conversa em vez de ação"
+          ],
+          "abilities": {
+            "0": "Você nunca rola 0d para infligir dano ou violência (sempre role pelo menos 1d).",
+            "I": "Qualquer quantidade de dano que você inflija é instantaneamente fatal para humanos.",
+            "II": "Você ganha a blasfêmia Força. Pode usá-la com segurança uma vez por missão. Se usá-la uma segunda vez, quando a cena terminar, você se despedaça por dentro e sofre morte instantânea.",
+            "III": "Você pode usar Força com segurança uma segunda vez."
+          }
+        }
+      },
+      "charity": {
+        "name": "Caridade",
+        "title": "As Gêmeas",
+        "desc": "Uma Virtude amplamente temida, Caridade imediatamente se destaca entre seus pares devido à sua situação única. Caridade é funcionalmente a mesma pessoa que ocupa dois corpos - ou alternadamente, duas pessoas separadas com exatamente a mesma personalidade e aparência física até cada fio de cabelo. Elas podem até compartilhar emoções e podem reagir ou falar entre os corpos por reflexo. Isso porque a alta blasfêmia de Caridade, Entrelaçar, embora extremamente poderosa, força uma fusão de seus usuários para que, com o tempo, eles se tornem gêmeas perfeitas - uma amálgama das duas, misturadas, física e mentalmente. Como as habilidades de Caridade funcionam a qualquer distância, elas são frequentemente destacadas separadamente para diferentes missões ao redor do globo, embora prefiram trabalhar juntas.<br><br>É de conhecimento comum que houve várias gerações de Caridades ao longo dos anos, desde pelo menos 1850, e nenhum de seus corpos é o original. Quando uma morre, a CAIN exige uma substituição de um grupo seleto.<br><br>Ao se vincular com Caridade, você se colocou nesta lista. Parabéns.",
+        "likes": [
+          "Moda",
+          "Discutir online",
+          "Viajar",
+          "Dias chuvosos"
+        ],
+        "dislikes": [
+          "Justiça",
+          "Fé",
+          "Pessoas entediantes",
+          "Conversas longas"
+        ],
+        "favorite_food": [
+          "Chá da tarde",
+          "Rabo de porco"
+        ],
+        "bond": {
+          "strictures": [
+            "Ignore por uma rolagem sofrendo 1d3 de estresse não letal",
+            "Quando possível, você deve participar de trabalho em equipe ou preparação.",
+            "Você rola 0d ao tentar se esconder, furtividade ou evitar ser notado."
+          ],
+          "abilities": {
+            "0": "Você pode se envolver em telepatia com qualquer exorcista com quem tenha contato pele a pele.",
+            "I": "Ganhe a blasfêmia Entrelaçar.",
+            "II": "No início de uma missão, você pode escolher uma habilidade de agenda de qualquer outro membro do grupo. Pelo resto da missão, você pode usar esta habilidade de agenda como sua.",
+            "III": "Poderes que alvejam 'si mesmo' agora podem alvejar qualquer exorcista com quem você esteja Entrelaçado."
+          }
+        }
+      },
+      "faith": {
+        "name": "Fé",
+        "title": "A Tímida",
+        "desc": "Fé não é apenas uma anomalia dentro da CAIN, é também uma anomalia para o mundo em geral. Ela nasceu em uma vila no leste europeu em 1672 e foi forçada ainda jovem a se juntar a uma ordem monástica devido à suspeita de ser amaldiçoada ou de conspirar com o Diabo. Não importa o quanto Fé envelhecesse, ela nunca parecia passar dos seus vinte e poucos anos, permanecendo uma imagem de saúde e condicionamento físico máximos, manifestando força e constituição sobrenaturais. Depois que se tornou uma eremita cerca de cem anos após seu nascimento, foi descoberta por uma CAIN primitiva, onde foi determinado que ela era o único indivíduo puramente sem Graça e sem Pecado em todo o mundo.<br><br>A maioria dos humanos manifesta uma pequena quantidade de graça ou Pecado devido a trauma psíquico latente, mas Fé é um 'completo vazio'. Agora se teoriza que isso ocorre porque ela possui uma 'anti-blasfêmia', uma blasfêmia que absorve todas as outras. Isso a tornou completamente imune a fenômenos psíquicos e também biologicamente imortal.<br><br>Fé tem o menor número de baixas confirmadas entre todas as virtudes. Rumores dizem que a CAIN a usa principalmente para missões de captura e controle de vinculadores renegados, algo em que ela parece ser terrivelmente eficaz.",
+        "likes": [
+          "Cachorros",
+          "Tardes Tranquilas",
+          "Tirar Fotos",
+          "Gachapon",
+          "Jogos de Celular",
+          "Jogos de Luta"
+        ],
+        "dislikes": [
+          "Fortitude",
+          "Pessoas Mal-educadas",
+          "Trabalho",
+          "Filmes de Terror"
+        ],
+        "favorite_food": [
+          "Fast Food",
+          "Doces",
+          "Frango Apimentado"
+        ],
+        "bond": {
+          "strictures": [
+            "Ignore por uma rolagem sofrendo 1d3 de estresse não letal",
+            "Você não pode machucar ninguém nem nada.",
+            "Sempre role 0d em ações que seriam consideradas indelicadas."
+          ],
+          "abilities": {
+            "0": "Uma vez por missão, se você puder comer doces, você pode aliviar 1 de pecado.",
+            "I": "Você ganha a blasfêmia Nulo. Pode usá-la uma vez por missão.",
+            "II": "Transbordamento de pecado reduz seu limite de transbordamento de pecado em apenas 1 em vez de 2.",
+            "III": "Quando você escolher, sua blasfêmia Nulo se torna o Desafio Imaculado do Céu. Esta escolha é irreversível."
+          }
+        }
+      },
+      "justice": {
+        "name": "Justiça",
+        "title": "A Carrasca",
+        "desc": "Justiça é geralmente considerada a exorcista mais poderosa do arsenal atual da CAIN, uma solitária de poucas palavras que recebe extrema liberdade em engajamentos e permissão incomum para vagar. Isso porque a alta blasfêmia de Justiça, Lei, não permite que ela desobedeça ordens de um superior de qualquer forma, tornando-a o cão de ataque perfeito. Ela tem o maior número de execuções registradas na história da CAIN e um histórico de combate quase impecável, sendo um objeto de admiração entre as patentes regulares.<br><br>Na maioria das vezes, ela parece encarar sua posição como uma realidade inevitável, incorporando seu papel como carrasca da CAIN. Ela é extremamente eficiente e a natureza avassaladora de suas habilidades permite que ela trivialize até os oponentes mais tenebrosos.<br><br>É comumente teorizado que a Temerity tem uma subdivisão especial inteiramente dedicada à contingência de que Justiça consiga contornar sua própria blasfêmia.",
+        "likes": [
+          "Debate Religioso",
+          "Música Clássica",
+          "Limpeza"
+        ],
+        "dislikes": [
+          "Caridade",
+          "Atraso",
+          "Cachorros"
+        ],
+        "favorite_food": [
+          "Comida Saudável",
+          "Tâmaras"
+        ],
+        "bond": {
+          "strictures": [
+            "Ignore por uma rolagem sofrendo 1d3 de estresse não letal",
+            "Você não pode ignorar ordens de um superior.",
+            "Sempre role 0d em qualquer ação que quebraria a lei."
+          ],
+          "abilities": {
+            "0": "Ganhe um gatilho de xp extra: Você defendeu o dogma da CAIN?",
+            "I": "Ganhe a blasfêmia Lei. Você pode usá-la uma vez por missão.",
+            "II": "Reduza o pecado em 1 depois de reduzi-lo pela metade. Se você executou um pecado em vez de poupá-lo, reduza o pecado em 1 novamente. Se você poupou um pecado ou falhou em executá-lo, aumente o pecado em 1d3 depois de reduzi-lo pela metade.",
+            "III": "Você pode escolher dois efeitos diferentes para Lei."
+          }
+        }
+      }
+    },
+    "blasphemies": [
+      {
+        "id": "lei",
+        "name": "Lei",
+        "tier": "high",
+        "img": "assets/blasf/LEI.webp",
+        "desc": "Uma força tão primitiva que reescreve a realidade.<br>Você não dobra as leis — você as edita.",
+        "passive": "",
+        "powers": [
+          {
+            "name": "Lei",
+            "desc": "<strong>[Transmutação, Adjacente, 1 Cena | Gaste todos os pulsos restantes — mín. 1. Pecado não pode compensar.]</strong><br>Você estabelece uma regra da realidade física que afeta tudo em uma área circular ao seu redor, chamada de <strong>Corte</strong>, com raio igual a CAT.<br>Quaisquer alterações ocorrem instantaneamente e persistem dentro da área, mas a área em si não se move.<br><br>Este poder pode sempre eliminar, destruir ou alterar completamente seres, objetos ou estruturas mundanas.<br>Seres de forte vontade ou sobrenaturais, como exorcistas ou pecados, podem resistir parcialmente aos seus efeitos — mas humanos são sempre afetados instantaneamente.<br>Se você sair da área ou a cena terminar, o efeito termina.<br><br>Para usar Lei, gaste todos os seus pulsos psíquicos restantes (mínimo 1) e complete a frase:<br><em>\"Na Corte, _____ é/são _____\"</em><br>Você só pode usar palavras da lista de Termos da Lei abaixo.<br>Efeitos adicionais ficam a critério do Administrador e podem ser improvisados conforme a ficção.<br><br>Em seguida, escolha um dos seguintes efeitos:<br>• Conceda até três dados de vantagem (no total) a você ou a um aliado enquanto a Corte estiver ativa. Podem ser distribuídos um por vez ou todos de uma vez.<br>• Mate instantaneamente todos os humanos na área ou que entrem nela enquanto a Corte estiver ativa.<br>• Corte um talismã rolando PSIQUE — +1 corte no sucesso. Pode ser realizado ao ativar Lei e mais uma vez enquanto ela estiver ativa.<br>• Torne algo específico menos difícil ou menos arriscado enquanto a Corte estiver ativa.<br><br>Este poder pode facilmente afetar os parâmetros das rolagens dentro da área e pode tornar rolagens desnecessárias para certas tarefas.<br><br><strong>TERMOS DA LEI:</strong><br>1. Rápido &nbsp; 2. Lento &nbsp; 3. Cola &nbsp; 4. Pedras &nbsp; 5. Papel &nbsp; 6. Tecido &nbsp; 7. Sangue &nbsp; 8. Pregos &nbsp; 9. Pele &nbsp; 10. Estilingues ou balas &nbsp; 11. Flechas &nbsp; 12. Lâminas &nbsp; 13. Sólido &nbsp; 14. Líquido &nbsp; 15. Metal &nbsp; 16. Macio &nbsp; 17. Afiado &nbsp; 18. Pesado &nbsp; 19. Leve &nbsp; 20. Terra &nbsp; 21. Fogo &nbsp; 22. Água &nbsp; 23. Ar &nbsp; 24. Proibido &nbsp; 25. Atraído &nbsp; 26. Repelido"
+          }
+        ],
+        "fato": "Alta Blasfêmia — obtida através de um vínculo com uma Virtude.<br>Não aumenta o limite de XP nem reduz o limite de transbordamento de pecado."
+      },
+      {
+        "id": "nulo",
+        "name": "Nulo",
+        "tier": "high",
+        "img": "assets/blasf/NULL.webp",
+        "desc": "A negação absoluta de toda interferência psíquica.<br>Você não resiste ao poder — você simplesmente não existe para ele.",
+        "passive": "",
+        "powers": [
+          {
+            "name": "Nulo",
+            "desc": "<strong>[Instantâneo, Encantamento, 1 Cena | Gaste todos os pulsos restantes — mín. 1. Pecado não pode compensar.]</strong><br>Pelo restante da cena, você se torna completamente imune a fenômenos psíquicos.<br>Qualquer coisa que cause dano físico — como ataques físicos de Pecados — ainda pode afetá-lo normalmente.<br>Por exemplo, você pode ser atingido por um móvel arremessado ou uma bala, mas não por uma explosão de energia puramente psíquica ou por controle mental.<br><br>Você não pode ser afetado por aflições (embora elas permaneçam sobre você, suas habilidades ficam simplesmente suprimidas durante a cena).<br><br>Em troca, enquanto este poder estiver ativo, você não pode usar nem ser afetado por nenhuma blasfêmia além desta — incluindo as dos seus aliados — e quaisquer blasfêmias que estejam ativamente afetando você são encerradas.<br><br>Ao contrário de outros poderes, você <em>não pode</em> encerrar este efeito antecipadamente."
+          },
+          {
+            "name": "Desafio Imaculado do Céu",
+            "desc": "<strong>[Permanente]</strong><br>Este poder tem a mesma função que Nulo, exceto que é permanente. Ele possui os seguintes efeitos:<br><br>• Você não pode mais usar nem ser afetado por blasfêmias.<br>• Seu pecado é zerado. Você não acumula nem usa pecado e não pode entrar em transbordamento de pecado por qualquer motivo.<br>• Você pode gastar 1d3 de estresse em vez de um pulso psíquico para obter +1D em qualquer ação, utilizando suas poderosas habilidades físicas.<br>• Combater Pecados com habilidades mundanas deixa de ser difícil. Além disso, suas habilidades físicas mundanas equivalem a aproximadamente ½ CAT em capacidade.<br>• Você ganha +1 ferimento máximo.<br>• Sua expectativa de vida natural se estende em 10d10 anos."
+          }
+        ],
+        "fato": "Alta Blasfêmia — obtida através de um vínculo com uma Virtude.<br>Não aumenta o limite de XP nem reduz o limite de transbordamento de pecado."
+      },
+      {
+        "id": "entrelacar",
+        "name": "Entrelaçar",
+        "tier": "high",
+        "img": "assets/blasf/ENTWINE.webp",
+        "desc": "Você entrelaça sua mente com a de outro em um abraço amoroso.<br>A distância não existe entre almas unidas.",
+        "passive": "",
+        "powers": [
+          {
+            "name": "Entrelaçar",
+            "desc": "<strong>[Instantâneo, 1 Missão | Sem custo de pulso]</strong><br>Escolha outro exorcista disposto. Você entrelaça sua mente com a dele em um abraço amoroso.<br>Pelo restante da missão, ambos ganham os seguintes efeitos:<br><br>• Quando um de vocês ganhar ou perder estresse, ou gastar/ganhar um pulso psíquico, você pode redirecionar isso para qualquer um dos dois — independentemente da distância.<br>Dano, estresse, etc., aparecem sobrenaturalmente no corpo um do outro.<br>Qualquer coisa transferida dessa forma <em>não pode ser reduzida de nenhuma maneira</em>.<br>• Vocês podem se comunicar telepaticamente a distâncias extremas.<br>Você também sente reflexivamente qualquer emoção forte que o outro sentir — mesmo involuntariamente.<br><br><strong>No entanto:</strong><br>• Quando um de vocês adquirir uma aflição ou um gancho, ambos adquirem essa aflição ou gancho.<br>• Quando um de vocês ganhar pecado, ambos ganham essa quantidade de pecado.<br>• Se qualquer um dos dois sofrer transbordamento de pecado ou morte instantânea, esta blasfêmia se rompe pelo restante da missão. Ela não pode ser encerrada de outra forma.<br><br><strong>Após a missão</strong> — mesmo que o poder tenha se rompido antes:<br>• A aparência física de ambos começa a mudar para refletir a do outro (cor dos olhos ou cabelo, idade, gênero, altura, formato do corpo ou rosto, etc.).<br>Cada um escolhe uma característica para compartilhar com o outro.<br>O processo leva cerca de três dias e é desagradável.<br><br><em>* O uso prolongado deste poder ao longo do tempo levará a uma fusão física e mental descrita por Caridade como a forma mais pura de felicidade. Isso não foi verificado pela TEMERITY.</em>"
+          }
+        ],
+        "fato": "Alta Blasfêmia — obtida através de um vínculo com uma Virtude.<br>Não aumenta o limite de XP nem reduz o limite de transbordamento de pecado."
+      },
+      {
+        "id": "forca",
+        "name": "Força",
+        "tier": "high",
+        "img": "assets/blasf/STRENGTH.webp",
+        "desc": "Uma rara mutação da blasfêmia de Amplificar.<br>Sem treinamento adequado, usar esta blasfêmia fará com que os órgãos internos explodam violentamente para fora do corpo.",
+        "passive": "",
+        "powers": [
+          {
+            "name": "Força",
+            "desc": "<strong>[Encantamento, 1 Cena | Gaste todos os pulsos restantes — mín. 1. Pecado não pode compensar.]</strong><br>Suas habilidades físicas mundanas agora são iguais ao CAT e combater pecados com forças mundanas não é mais difícil.<br><br>• Você pode forçar qualquer ação física até CAT+2 ganhando 2d3 de estresse. Isso pode infligir um ferimento.<br>• Todas as armas que você usar quebram após o uso, a menos que tenham sido especialmente temperadas. Você pode temperar qualquer arma entre missões gastando 1 cédula por arma.<br>• No final da cena, você sofre um ferimento e entra em coma até que seu grupo descanse. Você se recupera no início do período de descanso e pode descansar normalmente."
+          }
+        ],
+        "fato": "Alta Blasfêmia — obtida através de um vínculo com uma Virtude.<br>Não aumenta o limite de XP nem reduz o limite de transbordamento de pecado."
+      },
+      {
+        "id": "veu",
+        "name": "Véu",
+        "tier": "high",
+        "img": "assets/blasf/veil.webp",
+        "desc": "Você apaga a memória de multidões inteiras em um instante.<br>Eles nunca saberão o que perderam.",
+        "passive": "",
+        "powers": [
+          {
+            "name": "Véu",
+            "desc": "<strong>[Instantâneo, Longo | Gaste todos os pulsos restantes — mín. 1. Pecado não pode compensar.]</strong><br>Apague instantaneamente a memória de uma massa de humanos em alcance determinado por CAT.<br>Você não pode escolher quem atingir — você deve atingir a área máxima e o maior número possível de pessoas.<br><br>Eles ficam completamente insensíveis por exatamente 11 segundos.<br>Em seguida, esquecem tudo que viram e ouviram nos últimos 77 segundos (incluindo o período de insensibilidade).<br>Seu cérebro processa o dano e, para eles, é como se esse tempo nunca tivesse passado — eles são efetivamente 'redefinidos' para 77 segundos atrás.<br>Podem ficar confusos com as circunstâncias: por exemplo, podem não estar onde se lembram de estar."
+          },
+          {
+            "name": "Ruptura de Memória em Massa",
+            "desc": "<strong>[Rank de Vínculo III]</strong><br>No rank III de vínculo, você pode forçar Véu por períodos mais longos. Se fizer isso, deve pagar o custo associado. Os custos são cumulativos.<br><br><strong>Até dez minutos:</strong> ganhe 1d3+1 de estresse.<br><strong>Até uma hora:</strong> … e também ganhe 1d3+1 de pecado.<br><strong>Até dez horas:</strong> … e também perca permanentemente uma memória importante — como o sabor de algo, o nome dos seus pais, uma memória preciosa da infância.<br><strong>Até um dia:</strong> … e também reduza o limite de transbordamento de pecado em 2.<br><strong>Até dez dias:</strong> … e você esquece seu próprio nome. Você não pode usar habilidades de agenda nem ganhar XP nesta missão. Você deve mudar de agenda antes do início da próxima missão.<br><strong>Redefinição total:</strong> A CAIN esquece que você existe. Você esquece que existe. Seus aliados esquecem que você existe. Você se torna uma casca vazia, um cadáver ambulante que ninguém recorda. Você não está morto, mas também não está verdadeiramente vivo.<br><em>Crie um novo personagem.</em>"
+          }
+        ],
+        "fato": "Alta Blasfêmia — obtida através de um vínculo com uma Virtude.<br>Não aumenta o limite de XP nem reduz o limite de transbordamento de pecado."
+      },
+      {
+        "id": "acordo",
+        "name": "Acordo",
+        "tier": "high",
+        "img": "assets/blasf/shake.webp",
+        "desc": "Você impõe um acordo a todos ao seu redor, e a realidade se dobra para garantir que as regras sejam seguidas.",
+        "passive": "",
+        "powers": [
+          {
+            "name": "Acordo",
+            "desc": "<strong>[Transmutação, Curto, 1 Cena | Gaste todos os pulsos restantes — mín. 1. Pecado não pode compensar.]</strong><br>Não está claro por que 'ACORDO' funciona com base em jogos infantis, mas rumores dizem que está relacionado a um desejo inerente dos humanos por jogos, a teoria do 'homo ludens'.<br>Você pode gastar todos os seus pulsos psíquicos restantes para instantaneamente impor um jogo da lista abaixo sobre si mesmo e todos os outros humanos, pecados ou exorcistas em alcance determinado pelo CAT. Quebrar as regras do jogo causa dor excruciante, hemorragia e eventualmente a morte. Enquanto a regra se aplicar:<br><br>• Para você e aliados, ações se tornam mais difíceis quando você deve evitar quebrar a regra com suas ações<br>• Se através de suas ações você ou um aliado quebrar a regra intencionalmente, você sofre 2d3 de estresse, que não pode ser reduzido de forma alguma e pode infligir ferimentos como normal.<br><br>Em retorno:<br>• Se o alvo, através de suas ações, quebrar uma regra intencionalmente, ele sofre 1d3 cortes em seu talismã de execução. Humanos são mortos instantaneamente. Eles estão cientes deste efeito.<br>• Você pode preparar um aliado de graça, três vezes, enquanto a regra estiver ativa, e sem rolar. Descreva como você está tirando vantagem da regra. Quaisquer efeitos normais de preparação se aplicam a essas ações especiais de preparação, e você pode realizá-las sem contar como uma ação em uma cena de conflito.<br><br>Você não pode encerrar este efeito antes do tempo, e ele dura pela cena.<br><br><strong>JOGOS:</strong><br>• O Chão é Lava (Não Toque no Chão).<br>• Rei do Morro (Deve permanecer dentro de uma área pequena).<br>• Pega-pega Reverso (Não toque em um pecado, humano ou exorcista).<br>• Sem Mãos (Não Use Suas Mãos).<br>• Proibido Falar (Não fale ou faça barulhos altos).<br>• Marco Polo (Não abra os olhos. Alvos devem dizer 'Polo' quando você disser 'Marco' e não podem se afastar do alcance curto de você).<br>• Luz Vermelha, Luz Verde (Os afetados pela regra veem uma luz vermelha e verde fantasma e são forçados a parar de se mover na luz vermelha)."
+          }
+        ],
+        "fato": "Alta Blasfêmia — obtida através de um vínculo com uma Virtude.<br>Não aumenta o limite de XP nem reduz o limite de transbordamento de pecado."
+      }
+    ]
+  }
+}

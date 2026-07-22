@@ -1,0 +1,245 @@
+[
+  {
+    "id": "drifter-004",
+    "tmid": "TMID: 004",
+    "name": "Homem Peludo",
+    "name_en": "Hairy Man",
+    "category": "Anomalia",
+    "location": "Zonas florestais ou rurais",
+    "execution": {
+      "solo": 4,
+      "pair": 8
+    },
+    "stress_inflicted": {
+      "1": 4,
+      "2-3": 3,
+      "4+": 2
+    },
+    "description": "Aparece principalmente em zonas florestais ou rurais. O pelo é denso e abundante. Possui digitação de aspecto humano. Não possui sistema digestivo e regurgita os pelos e ossos das presas; utiliza uma mandíbula faríngea para comer. Capaz de mimetizar a fala humana.",
+    "behavior": "Segue à distância, preferindo isolar e atacar presas solo. Caça, mutila e mastiga animais selvagens ou gado e regurgita os restos.",
+    "specials": [
+      {
+        "name": "Emboscada (Ambush)",
+        "type": "Tensão",
+        "desc": "Como movimento de tensão, o Administrador pode informar os exorcistas de que estão sendo perseguidos. Se nada for feito para mitigar isto, sempre que entrarem numa cena de conflito durante o resto da missão, há 50% de chance (role 1d6: 1-3) de um Homem Peludo atacar e tentar arrastar um deles."
+      }
+    ]
+  },
+  {
+    "id": "drifter-820",
+    "tmid": "TMID: 820",
+    "name": "Luz de Pele",
+    "name_en": "Skin Light",
+    "category": "Anomalia",
+    "location": "Noturno / Ar livre",
+    "execution": {
+      "solo": 1,
+      "small_group": 3,
+      "cluster": 8
+    },
+    "stress_inflicted": {
+      "1": "3 de estresse + Gancho Fusão",
+      "2-3": 3,
+      "4+": 2
+    },
+    "description": "Bolha multicolorida, iluminada por uma fonte de luz invisível. Vistas de perto, são compostas por pele transparente que respira suavemente. Reproduzem-se através de um processo macabro. Parecem desprovidas de sapiência.",
+    "behavior": "Surge apenas à noite. Flutua no lugar. Atraída pelo calor gerado por seres vivos e tenta fundir-se com eles.",
+    "specials": [
+      {
+        "name": "Fusão (Fuse)",
+        "type": "Ameaça / Reação '1'",
+        "desc": "Como ameaça ou numa rolagem de reação de '1', a Skin Light pode fundir-se a um exorcista com pele exposta. Isto mata o drifter, mas concede ao Exorcista o gancho Fusão (0/3). A pele do exorcista ganha bolhas, erupções e irradia cores. Torna-se doloroso segurar ferramentas (-1D para usar ferramentas ou armas enquanto tiver este gancho). Se o gancho for preenchido completamente, o exorcista sofre 2d6 de estresse enquanto uma grande seção da sua pele se rasga e se transforma numa nova Skin Light, deixando cicatrizes permanentes."
+      }
+    ]
+  },
+  {
+    "id": "drifter-113",
+    "tmid": "TMID: 113",
+    "name": "Esguio (O Espectro da Estrada)",
+    "name_en": "Spindley (Road Wraith)",
+    "category": "Anomalia",
+    "location": "Estradas / Rodovias / Passagens Subterrâneas",
+    "execution": {
+      "solo": 8
+    },
+    "stress_inflicted": {
+      "1": 4,
+      "2-3": 3,
+      "4+": 2
+    },
+    "description": "Também conhecido como 'O Espectro da Estrada'. Surge em áreas com alta incidência de acidentes automobilísticos e ferimentos rodoviários. Frequentemente responsável pelo desaparecimento de motoristas, usa a sua alta velocidade de arrancada para perseguir carros por quilômetros de madrugada.",
+    "behavior": "Encontrado apenas sozinho, percorrendo estradas à noite ou em passagens subterrâneas. Extremamente agressivo após ser encontrado, mas raramente abandona o asfalto.",
+    "specials": [
+      {
+        "name": "Assassino da Estrada (Road Killer)",
+        "type": "Passiva / Combate",
+        "desc": "Enquanto estiver sobre uma estrada, causa +2 de estresse com todas as reações e a sua velocidade/agilidade aumenta em +2 CAT. Recebe 1 marca no seu talismã ao fim de cada rodada numa cena de conflito em que não esteja sobre uma estrada, acabando por se desintegrar."
+      }
+    ]
+  },
+  {
+    "id": "drifter-127",
+    "tmid": "TMID: 127",
+    "name": "Gêmeo",
+    "name_en": "Twin",
+    "category": "Anomalia",
+    "location": "Subterrâneos (Metrô, Esgotos)",
+    "execution": {
+      "solo": 4,
+      "pair": 8
+    },
+    "stress_inflicted": {
+      "1": 4,
+      "2-3": 3,
+      "4+": 2
+    },
+    "description": "Pode ser confundido com um morador de rua ou vagabundo quando inativo. A pele parece trapos velhos feitos de carne. Passivo quando não perturbado e frequentemente parece estar em dor. Aglomera-se principalmente em zonas subterrâneas como túneis de esgoto ou metrôs. O gêmeo menor é fundido ao corpo principal e resmunga fatos sobre tragédias futuras.",
+    "behavior": "Silencioso e relativamente dócil se não provocado. Se perturbado, tenta puxar o agressor para a cavidade no seu corpo, onde os seus outros membros estão guardados.",
+    "specials": [
+      {
+        "name": "Resmungar (Mumble)",
+        "type": "Aura",
+        "desc": "Exorcistas que realizem qualquer ação ao alcance do Gêmeo conseguem ouvir o que ele resmunga. Se não tiverem boa proteção auditiva ou forma de bloquear o som, sofrem 1 de estresse (ignorando reduções) no final da sua ação."
+      }
+    ]
+  },
+  {
+    "id": "drifter-074",
+    "tmid": "TMID: 074",
+    "name": "O Caminhante",
+    "name_en": "Walker",
+    "category": "Anomalia Colossal",
+    "location": "Clima Adverso (Chuva, Nevoeiro, Neve)",
+    "execution": {
+      "solo": 10
+    },
+    "stress_inflicted": {
+      "1": 7,
+      "2-3": 5,
+      "4+": 2
+    },
+    "description": "6 a 8 metros de altura. Aparece apenas durante condições meteorológicas adversas (chuva, nevoeiro, neve, névoa) e desaparece quando o tempo se acalma. A cabeça termina em estruturas braquiais sem propósito perceptível. Força capaz de quebrar árvores, postes de luz e de energia. Um urro estridente tipo trombeta revela frequentemente a sua localização.",
+    "behavior": "Sentidos fracos; pode ser evitado se mantido à distância. Caminha devagar e aparentemente sem rumo no seu estado passivo. Extremamente rápido quando ativo.",
+    "specials": [
+      {
+        "name": "Desvanecer (Fade Away)",
+        "type": "Ambiente",
+        "desc": "Se não estiver em clima adverso (chuva/nevoeiro/neve/névoa), retorna à sua origem, desaparecendo no final de qualquer rodada (em cenas de conflito). Retorna se o clima adverso voltar."
+      }
+    ]
+  },
+  {
+    "id": "drifter-282-a",
+    "tmid": "TMID: 282",
+    "name": "Homem Rachado",
+    "name_en": "Cracked Man",
+    "category": "Anomalia",
+    "location": "Locais infantis abandonados (Creches, Escolas, Orfanatos)",
+    "execution": {
+      "solo": 4,
+      "small_group": 8
+    },
+    "stress_inflicted": {
+      "1": 5,
+      "2-3": 4,
+      "4+": 3
+    },
+    "description": "Encontrado com maior frequência em locais abandonados onde costumavam estar muitas crianças — orfanatos, escolas, creches.",
+    "behavior": "Violento e extraordinariamente beligerante após ser descoberto. Ao encontrar portas ou janelas, passa um longo tempo tentando descobrir como abri-las.",
+    "specials": [
+      {
+        "name": "Divisão (Split)",
+        "type": "Ameaça (1-2)",
+        "desc": "Uma parte do corpo começa a separar-se, vertendo ícor. Passa a poder agir com essa parte do corpo à distância, aumentando o talismã de execução em +2 caso a ameaça seja concretizada."
+      }
+    ]
+  },
+  {
+    "id": "drifter-282-b",
+    "tmid": "TMID: 282",
+    "name": "Vizinho",
+    "name_en": "Neighbor",
+    "category": "Anomalia",
+    "location": "Locais de catástrofes / Baixas em massa",
+    "execution": {
+      "solo": 4,
+      "small_group": 7
+    },
+    "stress_inflicted": {
+      "1": 4,
+      "2-3": 3,
+      "4+": 2
+    },
+    "description": "Entidade flutuante livre que surge em número elevado sempre que ocorre um evento com baixas em massa, especialmente de origem psíquica. São os abutres do oceano psíquico. Quando observados de perto, 60% a 85% das testemunhas relatam ver uma versão severamente mutilada do seu próprio corpo flutuando à sua frente.",
+    "behavior": "Capaz de voar. Paira à distância por algum tempo. Demonstra maioritariamente curiosidade.",
+    "specials": [
+      {
+        "name": "Intangível (Intangible)",
+        "type": "Passiva",
+        "desc": "Sofre -1 marca de dano físico (armas, objetos físicos, etc.)."
+      },
+      {
+        "name": "Máscara da Morte (Deathmask)",
+        "type": "Reação",
+        "desc": "Causa +2 de estresse com reações contra exorcistas que já possuam um ferimento. Eles contemplam o seu próprio rosto morto."
+      }
+    ]
+  },
+  {
+    "id": "drifter-997",
+    "tmid": "TMID: 997",
+    "name": "Cão",
+    "name_en": "Dog",
+    "category": "Anomalia",
+    "location": "Estacionamentos e garagens",
+    "execution": {
+      "solo": 7
+    },
+    "stress_inflicted": {
+      "1": "4 de estresse + Aflição Descompressão",
+      "2-3": 3,
+      "4+": 2
+    },
+    "description": "1 a 1,5m de altura na altura do ombro. Adota uma marcha quadrúpede, mas também consegue ficar confortavelmente em pé sobre duas patas. Carece de dedos definidos, mas opera facilmente portas para entrar em edifícios ou carros. Responsável por cerca de 1,5% dos desaparecimentos em estacionamentos.",
+    "behavior": "Aparenta ser predominantemente um necrófago / caçador de restos. Atraído por carros estacionados.",
+    "specials": [
+      {
+        "name": "Força Anormal",
+        "type": "Atributo",
+        "desc": "+2 CAT em proezas de força física."
+      },
+      {
+        "name": "Descompressão (The Bends)",
+        "type": "Aflição",
+        "desc": "Infligida ao causar estresse ou como ameaça. O Exorcista acha cada vez mais difícil caminhar de forma bípede (Atividades físicas tornam-se difíceis ao caminhar assim). Os pés e membros distorcem-se lentamente e tornam-se digitígrados se não for tratado após a missão."
+      }
+    ]
+  },
+  {
+    "id": "drifter-048",
+    "tmid": "TMID: 048",
+    "name": "Corpo de Minhocas",
+    "name_en": "Worm Body",
+    "category": "Anomalia",
+    "location": "Propriedades abandonadas ou negligenciadas",
+    "execution": {
+      "solo": 3,
+      "group": 6,
+      "large_group": 10
+    },
+    "stress_inflicted": {
+      "1": "2 de estresse + Gancho Minhoca",
+      "2-3": "1 de estresse + Gancho Minhoca",
+      "4+": 1
+    },
+    "description": "Pode ser confundido com uma pessoa alta à distância. Aparições observadas apenas em propriedades abandonadas ou negligenciadas, especialmente residenciais. Toda a entidade parece ser constituída por minhocas contorcidas que se dividem.",
+    "behavior": "Atraído por criaturas que respiram, seguindo a exalação de ar. Sentidos limitados.",
+    "specials": [
+      {
+        "name": "Gancho Minhoca (Worm Hook)",
+        "type": "Gancho",
+        "desc": "Infligido como ameaça ou ao causar estresse. Uma minhoca escavou para dentro do seu corpo. Um exorcista recupera -1 de estresse de qualquer dado de descanso para cada marca no gancho. Se o gancho for preenchido completamente, role 1d6: (1-3) Sofre morte instantânea (pode resistir normalmente); (4-6) Limpe todas as marcas do gancho e infecte outro exorcista com este gancho."
+      }
+    ]
+  }
+]

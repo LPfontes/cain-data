@@ -1,0 +1,188 @@
+{
+  "id": "gamesff3",
+  "name": "Games for Freaks Vol. 3 — Agendas & Blasfêmias",
+  "version": "1.0",
+  "author": "Games for Freaks",
+  "description": "Suplemento contendo as Agendas (Quebrado, Boneca, Berço) e Blasfêmias (Palavra, Trilha, Fio) do Volume 3.",
+  "enabled": false,
+  "isBase": false,
+  "data": {
+    "agendas": {
+      "broken": {
+        "name": "Quebrado",
+        "desc": "Esta agenda é uma maneira de encerrar a história de um exorcista. Pode não ser a melhor maneira.",
+        "icon": "./assets/agendas/icons/Quebrado.webp",
+        "normal": [
+          "Matar"
+        ],
+        "bold": [
+          "Matar"
+        ],
+        "habilidades": [
+          {
+            "name": "Rasgado pelas Costuras",
+            "desc": "Depois que a pressão aumentar durante uma missão, marque 1d3 caixas de pecado. Quando você tiver transbordamento de pecado, você pode escolher entre perder e manter o controle. Aposente seu exorcista após a missão atual. Enfrente execução ou exílio. Não resta mais nada para você aqui."
+          }
+        ]
+      },
+      "doll": {
+        "name": "Boneca",
+        "desc": "Você foi feito para ser moldado, sustentado e cuidado.",
+        "icon": "./assets/agendas/icons/Boneca.webp",
+        "normal": [
+          "Desistir de algo"
+        ],
+        "bold": [
+          "Fazer algo doloroso voluntariamente"
+        ],
+        "habilidades": [
+          {
+            "name": "Desabar",
+            "desc": "Uma vez por caçada, você pode se jogar no chão. Neste estado, humanos, pecados e exorcistas o tratarão como morto, gravemente doente ou inconsciente. Isso pode distrai-los e eles não o escolherão como alvo em cenas de conflito. O efeito encerra ao realizar qualquer ação que exija rolagem ou ao fim da cena. Funciona apenas uma vez contra o mesmo alvo."
+          },
+          {
+            "name": "Macia",
+            "desc": "Você rola -1D para ações difíceis (mesmo que se tornem mais fáceis depois), mas sempre ganha +1D para ações diretas (ações que não são difíceis nem arriscadas, como coletar informações)."
+          },
+          {
+            "name": "Alfineteiro",
+            "desc": "Exorcistas a curta distância de você podem sempre sofrer ferimentos ou aflições em seu lugar. Se o fizerem, eles ganham 1 XP, mas não mais do que uma vez por missão."
+          },
+          {
+            "name": "Acompanhante",
+            "desc": "Quando você participa de um trabalho em equipe, o líder da rolagem sempre sofre 2 de estresse não letal, mas sempre ganha +1D."
+          },
+          {
+            "name": "Sonhar Acordado",
+            "desc": "No início de qualquer cena de conflito, você pode recuperar todo o seu estresse. Se o fizer, role no máximo 1D em ações pelo resto da cena."
+          }
+        ]
+      },
+      "cradle": {
+        "name": "Berço",
+        "desc": "Ao escolher esta agenda, ter um de seus poderes ou cumprir seu item em negrito, escolha outro personagem para ser seu protegido (Ward). Você pode trocar seu protegido entre caçadas.",
+        "icon": "./assets/agendas/icons/Berco.webp",
+        "normal": [
+          "Proteja seu protegido das consequências de suas ações"
+        ],
+        "bold": [
+          "Deixe seu protegido sofrer"
+        ],
+        "habilidades": [
+          {
+            "name": "Matrifagia",
+            "desc": "Seu protegido pode causar 3 de estresse não letal e irredutível a você em vez de gastar um pulso psíquico, desde que esteja a curta distância de você."
+          },
+          {
+            "name": "Mimar",
+            "desc": "Uma vez por cena de conflito, você pode realizar a ação de defender ou ajudar gratuitamente, visando apenas seu protegido sem gastar sua ação na rodada."
+          },
+          {
+            "name": "Frágil",
+            "desc": "Você ganha +2 de estresse máximo, mas não pode mais aliviar estresse por nenhum meio além de sofrer um ferimento."
+          },
+          {
+            "name": "Devorador de Pecados",
+            "desc": "Uma vez por caçada, quando você faz um gesto caloroso ao seu protegido (um sorriso, um abraço, um carinho), você pode transferir qualquer quantidade de estresse e até um gancho ou aflição dele para você. Isso pode causar um ferimento ou matá-lo."
+          },
+          {
+            "name": "Oferenda",
+            "desc": "Enquanto estiver a curta distância do seu protegido, você pode ganhar 1d3+1 de pecado para prevenir qualquer ferimento dele, ou 1d6+2 para prevenir morte instantânea. Cada gatilho só atua uma vez por caçada. Seu protegido permanece com 1 de estresse abaixo do máximo."
+          }
+        ]
+      }
+    },
+    "blasphemies": [
+      {
+        "id": "palavra",
+        "name": "Palavra",
+        "img": "assets/blasf/PALAVRA.jpg",
+        "desc": "Sua palavra é lei. Seus poderes dependem da sua fala e ganham um efeito em cascata devastador e irrestrito se usados repetidamente antes de descansar.",
+        "passive": "<strong>Sua Palavra é Lei:</strong><br>Seus poderes não têm efeito se você não puder falar ou se o som for suprimido.<br>Usar poderes desta blasfêmia mais de uma vez antes de descansar causa efeitos em cascata cumulativos e obrigatórios:<br>• Segunda vez: +1 CAT (mín. CAT 2), sofre 1 estresse irredutível.<br>• Terceira vez: +2 CAT (mín. CAT 3, máx. CAT 7), +1D, sofre 3 estresses irredutíveis. Todos a curta distância ficam com aflição Ensurdecido.<br>• Quarta vez: O poder resolve em CAT 7 automático sem rolagem. Em seguida, sofre morte instantânea irrecuperável. Todos a curta distância ficam permanentemente surdos.",
+        "powers": [
+          {
+            "name": "O Verbo",
+            "desc": "<strong>[Instantâneo, Curto | Requer 1 pulso]</strong><br>Você diz 'Estalo', 'Clique' ou 'Pop' e produz um efeito físico correspondente (abrir fechadura, quebrar arma, estourar pneu).<br>Role PSIQUE se a ação for arriscada ou infligir dano, gastando o pulso apenas no sucesso."
+          },
+          {
+            "name": "Narrar",
+            "desc": "<strong>[Instantâneo, Curto | Requer 1 pulso]</strong><br>Escolha um grupo de até tamanho CAT e narre uma frase declarativa no passado (ex: 'Ele estava abrindo a porta').<br>Role PSIQUE; em caso de sucesso, a narrativa se torna realidade física instantânea."
+          },
+          {
+            "name": "Morra",
+            "desc": "<strong>[Maldição, Instantâneo | Requer 1 pulso]</strong><br>Você diz 'morra' e mata instantaneamente todos os humanos comuns em uma área de até tamanho CAT centrada em você.<br>Não requer rolagem. Se usado para matar uma pessoa, marque 1 caixa de pecado permanentemente; se matar mais de uma, marque 1d3 caixas de pecado permanentemente."
+          },
+          {
+            "name": "Bang",
+            "desc": "<strong>[Instantâneo, Alcance CAT | Requer 1 pulso]</strong><br>Você diz 'bang'. Uma onda de pressão psíquica massiva atinge uma área de até ½ CAT.<br>Role PSIQUE para seus efeitos.<br>• Ganhe +1D se o ambiente estiver silencioso.<br>• Ganhe +1D se estiver em local com boa acústica (teatro, estádio, desfiladeiro)."
+          },
+          {
+            "name": "Silêncio",
+            "desc": "<strong>[Transmutação, 1 cena, Longo | Requer 1 pulso]</strong><br>Você diz 'silêncio' e escolhe uma área de até tamanho CAT. Qualquer som na área cessa completamente.<br>Mecanismos que dependem de barulho (motores, armas, explosivos) param de funcionar e poderes que criem ruídos falham."
+          }
+        ],
+        "fato": "O uso continuado da blasfêmia Palavra pode causar rompimento permanente das cordas vocais e distorção psíquica.<br>Ref: Arquivo CASTLE 1998."
+      },
+      {
+        "id": "trilha",
+        "name": "Trilha",
+        "img": "assets/blasf/TRILHA.jpg",
+        "desc": "Você possui um tocador de música psíquico amaldiçoado. Monte uma playlist real de 6 músicas no início de cada caçada. Suas músicas ganham vida e afetam a realidade psíquica.",
+        "passive": "<strong>Playlist Psíquica:</strong><br>Você possui um reprodutor psíquico de fita/CD com fones. Monte uma playlist de 6 músicas no início da caçada.<br>As músicas podem ser ouvidas no jogo vindo do seu tocador, do ambiente ou do nada como uma trilha sonora cinematográfica.",
+        "powers": [
+          {
+            "name": "Vibe",
+            "desc": "<strong>[Encantamento, Si mesmo, 1 cena | Sem custo de pulso]</strong><br>No início da cena, toque uma música da sua playlist e defina a vibe como Melancólica, Chill ou Angustiada:<br>• Melancólica: Você ou um aliado aliviam 1 estresse ao falhar em uma rolagem.<br>• Angustiada: Ao ganhar um ferimento, ganho ou aflição, ganhe +1D na próxima ação.<br>• Chill: Ao fim da cena, se não houver rolagens difíceis ou arriscadas, todos a curta distância recuperam 1 estresse."
+          },
+          {
+            "name": "Embaralhar",
+            "desc": "<strong>[Transmutação, Instantâneo, Área CAT | Requer 1 pulso]</strong><br>Escolha objetos, veículos ou pessoas de até ½ CAT na área. Troque instantaneamente suas posições e impulso físico entre si.<br>Role PSIQUE se tentar trocar alvos de massas muito diferentes."
+          },
+          {
+            "name": "Repetir",
+            "desc": "<strong>[Encantamento, Toda a missão | Requer 1 pulso]</strong><br>Grave uma ação de até 10 segundos realizada por você ou um aliado.<br>Gaste 1 pulso para reproduzir um duplo psíquico tangível que repete exatamente a ação gravada e pode causar dano físico real."
+          },
+          {
+            "name": "Título",
+            "desc": "<strong>[Invocação, Instantâneo, Curto | Requer 1 pulso]</strong><br>Toque uma música da playlist e manifeste fisicamente uma construção baseada no título (um objeto, pessoa, animal ou força elemental como fogo/chuva/vento/pressão) de até tamanho CAT."
+          },
+          {
+            "name": "Impulso",
+            "desc": "<strong>[Instantâneo, Curto | Requer 1 pulso]</strong><br>Antes de usar uma blasfêmia, escolha uma música e anote os 3 primeiros dígitos do tempo da música (ex: 3:45 -> 3, 4, 5). Para cada dado rolado que coincidir com os números, ganhe +1 CAT adicional (máx. CAT 7)."
+          }
+        ],
+        "fato": "Objetos amaldiçoados de tocadores de música são arquivados na seção 52 do Temerity.<br>Possuem uma legião de fãs entre os funcionários juniores da CAIN."
+      },
+      {
+        "id": "fio",
+        "name": "Fio",
+        "img": "assets/blasf/FIO.jpg",
+        "desc": "Manipule correntes elétricas, linhas telefônicas e dados de redes psíquicas digitais.",
+        "passive": "<strong>Artéria Principal:</strong><br>Você possui um celular psíquico (`Main Artery`) que não ocupa PK e pode ser manifestado nas suas mãos à vontade.<br>Você pode ligar para qualquer humano, pecado ou exorcista. Se o alvo não tiver telefone, um aparelho psíquico temporário se manifesta na mão dele.",
+        "powers": [
+          {
+            "name": "Ligar",
+            "desc": "<strong>[Instantâneo | Requer 1 pulso]</strong><br>Ligue para qualquer pessoa, pecado ou exorcista. Gaste o pulso apenas se a pessoa atender.<br>Se o alvo não possuir um telefone, um telefone psíquico se materializará em suas mãos para atender."
+          },
+          {
+            "name": "Terminal",
+            "desc": "<strong>[Si mesmo, Encantamento, 1 cena | Requer 1 pulso]</strong><br>Manifeste um terminal de computador que emerge do seu peito ou costas.<br>Permite conexão ultrarrápida com a internet. Qualquer aliado interagindo com o terminal pode usar suas perícias para investigar e obter +1D na primeira busca."
+          },
+          {
+            "name": "Teclado",
+            "desc": "<strong>[Adjacente, Maldição, 1 cena | Requer 1 pulso]</strong><br>Desdobre um teclado psíquico de qualquer objeto, veículo ou pessoa.<br>Ao digitar no teclado, você pode interagir com o alvo como se fosse um computador, rolando PSIQUE ou a perícia de interface."
+          },
+          {
+            "name": "Disco",
+            "desc": "<strong>[Instantâneo, Adjacente | Requer 1 pulso]</strong><br>Toque em um aliado disposto, humano ou objeto de até tamanho CAT e armazene-o como um CD psíquico. Você pode carregar até CAT+1 CDs.<br>Ao tocar o CD novamente ou quebrá-lo, o conteúdo é libertado ileso."
+          },
+          {
+            "name": "Sobretensão",
+            "desc": "<strong>[Alcance CAT+2, Instantâneo | Requer 1 pulso]</strong><br>Desmaterialize a si mesmo e aliados próximos em uma carga elétrica psíquica e viaje instantaneamente através de linhas telefônicas ou cabos de rede até o destino."
+          }
+        ],
+        "fato": "Modificações corporais temporárias involuntárias (como teclados ou fios emergindo da pele) são comuns ao usar Fio.<br>Elas retornam ao normal em 1-2 horas."
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "gamesff4",
+  "name": "Games for Freaks Vol. 4 — Quirks & Expansão",
+  "version": "1.0",
+  "author": "Games for Freaks",
+  "description": "Suplemento contendo Quirks de Blasfêmias (Alma de Aço, Nífil, Tabu, Dígito, etc.), Hospedeiro Miserável, Invocação do Rei das Dez Mil Espadas, Atividades de Descanso (Recreation) e Expansão Estética.",
+  "enabled": false,
+  "isBase": false,
+  "data": {
+    "quirks": [
+      {
+        "name": "Steel Soul (Alma de Aço)",
+        "blasphemy": "Tensão",
+        "desc": "Seu corpo é impregnado com campos de tensão que tornam você extremamente denso, pesado e resistente. Seu peso é triplicado e ataques desarmados contam como armas de serviço. Ações rápidas são difíceis por padrão."
+      },
+      {
+        "name": "Lead Soul (Alma de Chumbo)",
+        "blasphemy": "Tensão",
+        "desc": "Seus campos psíquicos ganham força quando você segue suas convicções. Ao fim de cada cena de conflito, limpe 1 estresse se seguiu sua agenda."
+      },
+      {
+        "name": "Clockstopper (Parador de Relógio)",
+        "blasphemy": "Fluxo",
+        "desc": "Você pode usar o poder Parar sem gastar pulsos psíquicos, roubando tempo do seu tempo de vida e envelhecendo supernaturalmente a cada uso."
+      },
+      {
+        "name": "Timesplitter (Divisor de Tempo)",
+        "blasphemy": "Fluxo",
+        "desc": "Uma vez por caçada, crie uma fratura temporal e atue até 777 segundos em uma linha do tempo alternativa para obter informações antes de retornar."
+      },
+      {
+        "name": "Nihil & Black Matter (Nífil e Matéria Negra)",
+        "blasphemy": "Ardência",
+        "desc": "Substitui a Fornalha Interna pela Fornalha do Vazio, manifestando frio congelante do zero absoluto."
+      },
+      {
+        "name": "Axis & Rail (Eixo e Trilho)",
+        "blasphemy": "Vetor",
+        "desc": "Foca no movimento rotacional de órbita psíquica em torno de você ou na aceleração contínua em trilhos de ar."
+      },
+      {
+        "name": "Taboo (Tabu)",
+        "blasphemy": "Palavra",
+        "desc": "Palavras proibidas (Pecado, CAIN, nomes de blasfêmias) disparam uma onda de choque destrutiva involuntária e ensurdecedora se pronunciadas em voz alta."
+      },
+      {
+        "name": "Stroll, Ban & Scenery (Passeio, Banimento e Cenário)",
+        "blasphemy": "Portão",
+        "desc": "Variações para teleporte curto sem pulso, banimento temporário de alvos e extração de energia psíquica a partir de obras de arte."
+      },
+      {
+        "name": "Digit & Catch Vibe (Dígito e Pegar a Vibe)",
+        "blasphemy": "Editar",
+        "desc": "Sacrifique dedos das mãos por potências psíquicas devastadoras ou incorpore músicas reais tocadas durante a sessão de RPG na sua playlist."
+      },
+      {
+        "name": "Worm (Minhoca)",
+        "blasphemy": "Fio",
+        "desc": "Substitui aparelhos eletrônicos por livros psíquicos, almanaques, enciclopédias e jornais duplicados."
+      },
+      {
+        "name": "Recluse & Manifold (Recluso e Múltiplo)",
+        "blasphemy": "Palácio",
+        "desc": "Manifesta seu Palácio através de objetos reflexivos (telas, espelhos, pedras) ou de qualquer porta física."
+      },
+      {
+        "name": "Corpus & Hollow (Corpos e Oco)",
+        "blasphemy": "Assombração",
+        "desc": "Especialização em corpos recentemente falecidos, leitura de memórias de cadáveres e posse de humanos inconscientes."
+      },
+      {
+        "name": "Locus & Mother's Love (Foco e Amor de Mãe)",
+        "blasphemy": "Mãe",
+        "desc": "Conexão psíquica sutil com os sussurros de Mãe para bônus de CAT, redução de custos de pecado e +1D."
+      }
+    ],
+    "special_rules": [
+      {
+        "id": "wretched_host",
+        "name": "Wretched Host (Hospedeiro Miserável)",
+        "desc": "Substitui a vinculação normal para ser um hospedeiro Tipo II onde o pecado está fundido à sua carne."
+      },
+      {
+        "id": "summon_ten_thousand_sword_king",
+        "name": "Summon the Ten Thousand Sword King (Invocar o Rei das Dez Mil Espadas)",
+        "desc": "Em CAT 5+ ou à beira da morte, invoque o Rei para iniciar uma tempestade apocalíptica de espadas caindo do céu em uma área de tamanho CAT 5."
+      }
+    ],
+    "recreation": [
+      {
+        "id": "kitchen_access",
+        "name": "Kitchen Access (Acesso à Cozinha)",
+        "desc": "Acesso a instalações de cozinha privada do dormitório e refeitório com estoque de ingredientes."
+      },
+      {
+        "id": "lab_access",
+        "name": "Lab Access (Acesso ao Laboratório)",
+        "desc": "Acesso à sala de treino reforçada (The Block), deck de observação e alcova de pesquisa com internet intranet."
+      },
+      {
+        "id": "gym_access",
+        "name": "Gym Access (Acesso ao Ginásio)",
+        "desc": "Acesso à piscina, quadras esportivas e ginásio de artes marciais do complexo CASTLE."
+      },
+      {
+        "id": "lounge_access",
+        "name": "Lounge Access (Acesso ao Lounge)",
+        "desc": "Acesso ao lounge com TV, videocassete VHS, jogos Vamigo e biblioteca de revistas."
+      },
+      {
+        "id": "surface_access",
+        "name": "Surface Access (Acesso à Superfície)",
+        "desc": "Acesso controlado à superfície externa da instalação subterrânea ou oceânica da CAIN para ver o sol."
+      }
+    ],
+    "aesthetics": [
+      {
+        "name": "Designated Comfort Animal",
+        "cost": "1 Scrip",
+        "desc": "Animal de conforto para uso exclusivo na base."
+      },
+      {
+        "name": "Armagen Headphones",
+        "cost": "2 Scrip",
+        "desc": "Fones de ouvido de laboratório de alta fidelidade (CAT 2+)."
+      },
+      {
+        "name": "Book Tote",
+        "cost": "1 Scrip",
+        "desc": "Bolsa de lona reforçada para carregar livros e pastas."
+      },
+      {
+        "name": "Kiren Custom Footwear",
+        "cost": "5 Scrip",
+        "desc": "Calçados sob medida ajustados da 'Heated Wave' (CAT 2+)."
+      },
+      {
+        "name": "Control Collar",
+        "cost": "3 Scrip",
+        "desc": "Coleira de contenção que limita os poderes do usuário a CAT 1 no máximo."
+      },
+      {
+        "name": "Banneret Longcoat",
+        "cost": "4 Scrip",
+        "desc": "Sobretudo sob medida para auditores do Conselho ou segurança de alta credencial (CAT 4+)."
+      },
+      {
+        "name": "Varsity Jacket",
+        "cost": "3 Scrip",
+        "desc": "Jaqueta universitária com logos aprovados para esportes da base (CAT 3+)."
+      },
+      {
+        "name": "Blackwell Leather Overcoat",
+        "cost": "4 Scrip",
+        "desc": "Sobretudo de couro modificado da comissão avançada de disciplina (CAT 4+)."
+      },
+      {
+        "name": "Downpour Overcoat",
+        "cost": "4 Scrip",
+        "desc": "Sobretudo pesado de inverno com patch antipsíquico (CAT 4+)."
+      },
+      {
+        "name": "Summer Longcoat",
+        "cost": "2 Scrip",
+        "desc": "Sobretudo leve e respirável projetado para facilidade de movimento (CAT 3+)."
+      },
+      {
+        "name": "Operations Coat",
+        "cost": "1 Scrip",
+        "desc": "Casaco de operações produzido em massa para missões ativas contra pecados (CAT 2+)."
+      }
+    ]
+  }
+}
