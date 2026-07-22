@@ -1,0 +1,95 @@
+{
+  "equipment_by_kp": {
+    "0": [
+      { "name": "CASTLE ID", "desc": "Badge and identification documents" },
+      { "name": "Communicator", "desc": "Encrypted point-to-point radio" },
+      { "name": "Notebook and Pen", "desc": "Field notes" },
+      { "name": "Flashlight", "desc": "Simple handheld flashlight" }
+    ],
+    "1": [
+      { "name": "First Aid Kit", "desc": "Bandages, antiseptics, dressings" },
+      { "name": "Rope (15m)", "desc": "Durable climbing rope" },
+      { "name": "Tactical Lighter", "desc": "Windproof lighter" },
+      { "name": "Thermal Flask", "desc": "Keeps liquids hot/cold" },
+      { "name": "Emergency Ration", "desc": "3 days of dehydrated food" }
+    ],
+    "2": [
+      { "name": "Service Pistol", "desc": "9mm caliber, CASTLE standard" },
+      { "name": "Tactical Baton", "desc": "Retractable steel baton" },
+      { "name": "Light Vest", "desc": "Level II ballistic protection" },
+      { "name": "Reinforced Handcuffs", "desc": "Containment of humans and creatures" },
+      { "name": "Reconnaissance Drone", "desc": "Small camera-equipped drone" }
+    ],
+    "3": [
+      { "name": "Combat Shotgun", "desc": "12-gauge, pump-action" },
+      { "name": "Heavy Vest", "desc": "Level III ballistic protection" },
+      { "name": "Demolition Kit", "desc": "Controlled explosives" },
+      { "name": "Night Vision", "desc": "Night vision goggles" },
+      { "name": "Breach Kit", "desc": "Tools for picking locks" }
+    ],
+    "4": [
+      { "name": "Precision Rifle", "desc": ".308 caliber sniper rifle" },
+      { "name": "Heavy Tactical Equipment", "desc": "Full armor with life support" },
+      { "name": "Portable Containment Chamber", "desc": "Sealed cage for entity transport" },
+      { "name": "Paranormal Energy Scanner", "desc": "Detects supernatural activity within 500m" }
+    ],
+    "5": [
+      { "name": "Experimental CASTLE Weapon", "desc": "High-power prototype against Sins" },
+      { "name": "Full Ritual Kit", "desc": "All components for complex rituals" },
+      { "name": "Light Armored Vehicle", "desc": "Tactical transport with containment compartment" }
+    ]
+  },
+  "conforto_carreira": [
+    { "name": "Room Extension", "cost": 8, "desc": "Compact kitchen, choice of two pieces of furniture. Window. Receive the benefits of resting once, without going overtime during a mission. +1 maximum stress." },
+    { "name": "Visitation Rights", "cost": 10, "desc": "+1 maximum wound." },
+    { "name": "Upgraded Meal Plan", "cost": 4, "desc": "Switch to meal plan 'B'. +1 max PK." },
+    { "name": "Leave License", "cost": 12, "desc": "You are entitled to one week of leave per year, with some travel allowances. You gain +1 maximum stress, +1 PK, and +1 sin limit." },
+    { "name": "Private Room", "cost": 8, "desc": "Room available only for exorcists of category 3 or higher. +1 maximum stress." },
+    { "name": "Flexible Personal Hygiene Guidelines", "cost": 6, "desc": "Permissions for different hairstyles exceeding CASTLE restrictions and small concessions for jewelry or makeup. CAT 3+ only." },
+    { "name": "Permitted Indulgences", "cost": 2, "consumable": true, "desc": "Small personal indulgences, permitted by CASTLE. Cigarettes, coffee, sweets, gum, spending money. Use to roll an extra rest die when resting." },
+    { "name": "Silver Pieces", "cost": 44, "desc": "You are authorized to retire from exorcism. The work continues. You may work for CAIN in one of its many branches in an administrative capacity for the rest of your life, with potential opportunity for advancement." }
+  ],
+  "oculto_medico": [
+    { "name": "Qlippoth", "cost": 3, "pk": 2, "consumable": true, "desc": "Cursed fruit of Ymir's tree. Crush it to recover 1d3 psychic pulse." },
+    { "name": "Red Herb", "cost": 4, "pk": 2, "consumable": true, "desc": "Consume to heal 1d3+3 stress." },
+    { "name": "Ymir Tree Seed", "cost": 4, "pk": 2, "consumable": true, "desc": "During a rest, you can spend two rest dice to heal a wound, removing it." },
+    { "name": "White Body", "cost": 2, "pk": 1, "consumable": true, "desc": "Seed of a condensed great sin. Can be broken to clear an affliction." },
+    { "name": "Cursed Salt", "cost": 2, "pk": 1, "consumable": true, "desc": "When spread over a room-sized area, prevents humans from entering until pressure increases." },
+    { "name": "Green Herb", "cost": 2, "pk": 1, "consumable": true, "concentration": true, "desc": "Consume to heal 1d3 stress." },
+    { "name": "Adrenal Pill", "cost": 3, "pk": 1, "consumable": true, "desc": "Consume to heal 2d3 stress, then reduce maximum stress by 1 for the rest of the mission. Can be used while pressure is rising." },
+    { "name": "Black Blood Medicine", "cost": 6, "pk": 2, "consumable": true, "desc": "Consume on a dead exorcist who died in the same scene and has a (relatively) intact body to revive them. They will return with 2 wounds and mark 1 sin. All actions are considered difficult until resting." },
+    { "name": "Black Body", "cost": 3, "pk": 1, "consumable": true, "desc": "Seed of a condensed great sin. Can be broken to reduce sin by 3d3, but permanently reduces the sin limit by 1." },
+    { "name": "Ambrosia", "cost": 5, "pk": 1, "consumable": true, "desc": "Consume to gain 1 maximum and current psychic pulse. Effect does not stack and lasts until the end of the mission." }
+  ],
+  "kits": [
+    { "name": "Clerical Kit", "cost": 1, "desc": "Concentration. Official kit for exorcists performing administrative or research duties for CAIN's senior staff. Spend 1 PK to acquire one of the following items: printed copy of a SEER archive almanac (2 units), quality glasses, some quality pens, thick folders, notes on the area's history." },
+    { "name": "Cleaning Kit", "cost": 1, "desc": "Visible. Official kit for exorcists performing cleaning tasks in their spare time, tasked with erasing traces of other hunts. Spend 1 PK to take one of the following items: Waterproof and stain-resistant overalls, safety goggles, gas mask, thick gloves, antitoxin (2 packs, 1 charge)." },
+    { "name": "Delinquent Kit", "cost": 1, "desc": "Unauthorized by the commissioner, mostly through the black market. Spend 1 PK to take one of the following items: penknife, lighter, boot knife, pack of assorted cigarettes, hair clips, hair pomade." },
+    { "name": "Pilot Kit", "cost": 1, "desc": "Visible. Allocated with approval. You have quality driving gloves (1 pack) and access to a car on missions. The car has a talisman of 10 for damage and comfortably seats four people. If customized, you will be charged 2 scrips for a replacement." },
+    { "name": "Field Kit", "cost": 1, "desc": "Visible. Official kit for exorcists performing field monitoring work. Spend 1 PK to acquire one of the following items: waterproof notebook, all-weather cape, quality boots, survival food, tent and sleeping bag (pack of 3), optical scope." },
+    { "name": "Junk Kit", "cost": 1, "desc": "Visible. Look in parts. Spend 1 PK to take one of the following items: Rubber bands, writing case, good pen, chewable, screwdriver, duct tape, C-clamps, crowbar, battered toolbox." },
+    { "name": "Monitor Kit", "cost": 1, "desc": "Official kit for exorcists working as monitors in their depots. Spend 1 PK to obtain one of the following items: two-way radio, powerful flashlight, stun baton, cap, flash-bang grenade (2 PK)." },
+    { "name": "Guard Kit", "cost": 1, "desc": "Visible. Official kit for junior exorcists working as gatekeepers in TEMERITY's extremely sensitive facilities, built to contain forces beyond human understanding. Spend 1 PK to take one of the following items: Sacred text (2 PK), rosary, standard large daggers, suicide pill, perfumed oils, ancient censer." },
+    { "name": "Morgue Kit", "cost": 1, "desc": "Concentration. Official kit for exorcists performing forensic work on classified bodies of ordinary humans brought to CAIN facilities. Spend 1 PK to take one of the following items: tweezers, compact magnifying glass, scalpel, sample collector, compact respirator mask, wet wipes." },
+    { "name": "Carrier Kit", "cost": 1, "desc": "Visible. Official kit for exorcists working as carriers in their vast internal facilities. Spend 1 PK to take one of the following items: Durable backpack, folding ladder, pitons, ice pick, 9 meters of quality safety rope, flashlight." },
+    { "name": "Study Kit", "cost": 1, "desc": "Official kit for students of all ages continuing their studies in the school facilities while working. Spend 1 PK to choose one of the following items: electronic dictionary, translation guide, local map, pencil case, notebook, or textbook on a relevant subject (2 PK)." }
+  ],
+  "esteticos": [
+    { "name": "Service Uniform", "cost": 0, "desc": "Free standard service uniform, including sash, shoes, and cloak clasp. Not tailored. Shoes are recycled. Aesthetics bring no mechanical benefits. All have 0 PK. CAIN's dress code is strictly regulated (see CASTLE doctrine c9800)." },
+    { "name": "Ceremonial Uniform", "cost": 1, "desc": "Cassock or cloak. Tailored. Made from high-quality, comfortable fabric. Includes optional head or face covering for greater discretion." },
+    { "name": "Comfortable Shoes", "cost": 1, "desc": "Custom-made shoes. Production subject to availability." },
+    { "name": "Suit", "cost": 3, "desc": "High-quality tailored suit, available only for CAT 2+ exorcists." },
+    { "name": "Casual Clothes", "cost": 4, "desc": "Authorized casual attire that allows bypassing CAIN's dress restrictions when off-duty. Strictly prohibited for use on missions. Available only for CAT 3+ exorcists." },
+    { "name": "Formal Clothes", "cost": 6, "desc": "Authorized formal attire for organizational events. Impeccable cut. Not approved for field use. Includes permission to wear jewelry. Available only for CAT 2+ exorcists." },
+    { "name": "Overcoat", "cost": 4, "desc": "Overcoat covering all uniforms. Rain-resistant, tailored, and of very high quality. Some customization options. Available only for CAT 4+ exorcists." },
+    { "name": "Gala Uniform", "cost": 3, "desc": "Formal uniform including a half-cloak, originally for use at ceremonial events. Available only for CAT 3+ exorcists." }
+  ],
+  "posses": [
+    { "name": "Mobile Phone", "cost": 1, "desc": "Personal mobile phone. Pay 3 scrip to get one with more options and internet access." },
+    { "name": "Credit Card", "cost": 1, "desc": "Card that works with most currencies with a pre-loaded balance for everyday purchases. Never enough to buy anything expensive." },
+    { "name": "Clerical Kit", "cost": 3, "desc": "Concentration. Official kit for exorcists performing administrative or research duties for CAIN's senior staff. Spend 1 PK to acquire one of the following items: printed copy of a SEER archive almanac (2 units), quality glasses, some quality pens, thick folders, notes on the area's history." },
+    { "name": "Cleaning Kit", "cost": 3, "desc": "Visible. Official kit for exorcists performing cleaning tasks in their spare time, tasked with erasing traces of other hunts. Hateful work. Spend 1 PK to take one of the following items: Waterproof and stain-resistant overalls, safety goggles, gas mask, thick gloves, antitoxin (2 packs, 1 charge)." },
+    { "name": "Delinquent Kit", "cost": 2, "desc": "Unauthorized by the commissioner, mostly through the black market. Spend 1 PK to take one of the following items: penknife, lighter, boot knife, pack of assorted cigarettes, hair clips, hair pomade." },
+    { "name": "Pilot Kit", "cost": 5, "desc": "Visible. Allocated with approval. You have quality driving gloves (1 pack) and access to a car on missions. The car has a talisman of 10 for damage and comfortably seats four people. If customized, you will be charged 2 scrips for a replacement." }
+  ]
+}

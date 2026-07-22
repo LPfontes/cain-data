@@ -1,0 +1,33 @@
+{
+  "physical": {
+    "label": "Physical",
+    "skills": {
+      "Force": { "name": "Force", "desc": "Direct strength, violence, fighting, breaking, cutting" },
+      "Conditioning": { "name": "Conditioning", "desc": "Movement, running, climbing, swimming, balancing, endurance" },
+      "Coordination": { "name": "Coordination", "desc": "Manual dexterity, precision, shooting, throwing, catching" }
+    }
+  },
+  "investigation": {
+    "label": "Investigation",
+    "skills": {
+      "Covert": { "name": "Covert", "desc": "Stealth, moving silently, lockpicking" },
+      "Interfacing": { "name": "Interfacing", "desc": "Computers, hacking, electronics, systems" },
+      "Investigation": { "name": "Investigation", "desc": "Analyzing records, researching, deducing clues" },
+      "Surveillance": { "name": "Surveillance", "desc": "Noticing details, keeping watch, patrolling, detecting threats" }
+    }
+  },
+  "social": {
+    "label": "Social",
+    "skills": {
+      "Negotiation": { "name": "Negotiation", "desc": "Bargaining, convincing, persuading, diplomacy" },
+      "Authority": { "name": "Authority", "desc": "Intimidating, commanding, leading, imposing respect" },
+      "Connection": { "name": "Connection", "desc": "Contacts, gathering rumors, information networks" }
+    }
+  },
+  "psique": {
+    "label": "Psyche",
+    "skills": {
+      "Psique": { "name": "Psyche", "desc": "Half of category, rounded up" }
+    }
+  }
+}

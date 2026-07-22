@@ -1,0 +1,36 @@
+{
+  "cat_table": {
+    "1": { "label": "CAT 1 — Initiate", "skillPoints": 3, "blasphemies": 1, "desc": "Newly inducted into CASTLE. Limited powers." },
+    "2": { "label": "CAT 2 — Operator", "skillPoints": 5, "blasphemies": 2, "desc": "Has proven their worth in the field." },
+    "3": { "label": "CAT 3 — Veteran", "skillPoints": 7, "blasphemies": 3, "desc": "Experienced exorcist with consolidated powers." },
+    "4": { "label": "CAT 4 — Elite", "skillPoints": 9, "blasphemies": 4, "desc": "Elite task force. Feared by Sins." },
+    "5": { "label": "CAT 5 — Legend", "skillPoints": 12, "blasphemies": 5, "desc": "Nearly uncontrollable power. Living legend." }
+  },
+  "narrative_categories": {
+    "0": "Hell",
+    "1": "Apparition",
+    "2": "Revenant",
+    "3": "Spectre",
+    "4": "Demon",
+    "5": "God",
+    "6": "Demon-God",
+    "7": "Celestial Demon-God"
+  },
+  "fate_roll": {
+    "1": "Worst outcome",
+    "2": "Bad outcome",
+    "3": "Bad outcome",
+    "4": "Good outcome",
+    "5": "Good outcome",
+    "6": "Best outcome"
+  },
+  "roll_results": {
+    "1": "Worst outcome (Critical failure or serious complication)",
+    "2-3": "Bad outcome (Success with complication or simple failure)",
+    "4-5": "Good outcome (Clean success)",
+    "6": "Best outcome (Exceptional or critical success)"
+  },
+  "defy_fate": "Heal up to 1 wound below maximum. Cannot heal the last wound.",
+  "psyche_burst_clarification": "The free +1D use of psyche burst can only be used once per scene.",
+  "effectiveness_note": "Effectiveness is vibe-based — use common sense and narrative to determine the efficacy of actions."
+}

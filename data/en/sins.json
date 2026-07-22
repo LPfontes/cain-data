@@ -1,0 +1,693 @@
+[
+  {
+    "id": "ogro",
+    "name": "Ogre",
+    "canonical": true,
+    "num": "I",
+    "emotion": "Despair",
+    "manifests_in": [
+      "People completely exhausted by life (bullying, trafficking, debt, overwork, etc.)",
+      "People who suffer from a deep existential aversion to themselves",
+      "People dealing with extreme grief"
+    ],
+    "description": "Enormous, misshapen, and terribly powerful, Ogres are a common type of sin, but quite dangerous compared to others. They are born from people's feelings of inadequacy and failure.",
+    "appearance": "Ogres are almost always extremely large, strong, and bulky, manifesting a typical monstrous, misshapen appearance. The mere presence of an Ogre saps the energy and vitality from an environment, lowering the temperature. They are associated with frost, fog, mud, and bad weather.",
+    "behavior": "Ogres are unusual for being extremely antisocial, self-deprecating, and averse to conflict, generally just wanting to be left alone. They tend to be codependent and may spend time tormenting or comforting their host, or both.",
+    "traumas": [
+      "Who or what pushed you into this hole?",
+      "Who or what keeps you from falling?",
+      "What are you most ashamed of?"
+    ],
+    "palacio": {
+      "desc": "Usually resembles a mirror of a significant space to the host, but deteriorated and significantly expanded in size, turning into a labyrinth.",
+      "typical_places": [
+        "Abandoned or ruined buildings",
+        "Apartments in tall, grimy buildings",
+        "Closed or abandoned schools",
+        "Empty, lifeless workplaces or offices"
+      ],
+      "themes": [
+        "Dark",
+        "Damp",
+        "Cold",
+        "Moldy",
+        "Foul-smelling",
+        "Filthy"
+      ]
+    },
+    "pressao": {
+      "name": "Miasma",
+      "desc": "Infects the area with a dark miasma. Buildings and objects degrade, fog sets in, white mold grows, technology stops working, and the architecture becomes labyrinthine. Increases with each pressure advance."
+    },
+    "execution": {
+      "attacks_with": "Teeth, claws, fetid water, black vomit.",
+      "stress": {
+        "1": 6,
+        "2-3": 3,
+        "4+": 2
+      },
+      "complications": [
+        "Turn off lights",
+        "Summon fog",
+        "Vomit incessantly on someone",
+        "Bury an exorcist in mud, slime, or vomit",
+        "Immobilize an exorcist",
+        "Release an acrid odor",
+        "Destroy walls, floor, or ceiling",
+        "Retreat into darkness",
+        "Add a spectator",
+        "Use a domain"
+      ],
+      "threats": [
+        "Grab an exorcist and squeeze the life out of them",
+        "Hurl the exorcist against a wall",
+        "Bring down the architecture",
+        "Summon minions",
+        "Kill innocents",
+        "Pulverize an exorcist — rips off a limb on a '1' and instant death on two '1's",
+        "Infect with pulsing dark veins",
+        "Cause a sudden flood or freeze the person",
+        "Blind someone with a miasmatic cloud",
+        "Use a domain",
+        "Do something dark, oppressive, or vile"
+      ]
+    },
+    "minions": [
+      {
+        "name": "Shambling Ones",
+        "desc": "Bulbous, misshapen humanoids, formed from the ogre's shame and guilt. They are slow, but tear and devour the living.",
+        "talisman": "2 (individual), 4 (group), 6 (massive group)"
+      },
+      {
+        "name": "Crusher",
+        "desc": "A massive, hostile form. Attacks with mutant flesh and brute force. Its blows are devastating and difficult to dodge.",
+        "talisman": "6 + CAT"
+      }
+    ],
+    "domains": [
+      {
+        "id": 1,
+        "name": "Hostile Door Patterns",
+        "desc": "As a complication or tension move, erases entrances, exits, or light sources in the CAT+2 area. If an exorcist opens any door, the group falls into dangerous labyrinthine corridors."
+      },
+      {
+        "id": 2,
+        "name": "The Invisibility of Things",
+        "desc": "Miasma permeated by deep darkness. The ogre is invisible in the dark. As a tension move, electric lights fail and the Admin asks an exorcist: 'What do you see in the dark?'"
+      },
+      {
+        "id": 3,
+        "name": "The Grinding of the Wheels",
+        "desc": "Ogres force exorcists to relive trauma. A chosen exorcist gains the Despair affliction and the temporary agenda 'Push People Away'."
+      },
+      {
+        "id": 4,
+        "name": "That Terrible Flesh",
+        "desc": "The ogre regenerates 1 talisman segment if a 1 result is rolled on the risk die. The ogre takes -1 slash on its talisman unless damaged by fire, acid, or solvents."
+      },
+      {
+        "id": 5,
+        "name": "The Inevitable Place of Flesh",
+        "desc": "The ogre's touch rots objects and structures. Exposed exorcists begin to rot and gain the Decomposition affliction, subtracting 1 from healing rolls."
+      },
+      {
+        "id": 6,
+        "name": "The Whip Calls You Brother",
+        "desc": "Creates a creature based on the worst things the target exorcist hates about themselves or did in the past."
+      },
+      {
+        "id": 7,
+        "name": "Your Place",
+        "desc": "The ogre controls mud, water, and ambient temperature. Can sink into mud puddles and reappear. Can change the weather in a CAT+2 area, making it hostile."
+      },
+      {
+        "id": 8,
+        "name": "The Agony",
+        "desc": "At the start of the mission, chooses an exorcist who gains the Sunken affliction for the duration of the mission."
+      }
+    ]
+  },
+  {
+    "id": "idolo",
+    "name": "Idol",
+    "canonical": true,
+    "num": "II",
+    "emotion": "Desire",
+    "manifests_in": [
+      "Failed actors, singers, or artists",
+      "People suffering from extreme lack of personal fulfillment",
+      "People who have been abandoned or who have had no human connection or love of any kind"
+    ],
+    "description": "Serene and enchanting, Idols radiate a supernatural beauty and equilibrium. They possess the ability to become visible to ordinary humans and frequently take human form.",
+    "appearance": "Idols take human form, often resembling their host's ideal partner, parental figure, or best friend. They possess stunning divine and supernatural beauty.",
+    "behavior": "They radiate charisma and attract people around them, forming a massive cult. Their voices and appearances are hypnotic. In their worst form, they represent absolute control and selfishness.",
+    "traumas": [
+      "What is your dream?",
+      "Why did you give up on your dream?",
+      "Why do you think you are incapable of being loved?"
+    ],
+    "palacio": {
+      "desc": "A monument to the host's self-obsession, richly decorated to attract followers.",
+      "typical_places": [
+        "Nightclubs or concert halls",
+        "Beautiful penthouse apartments in skyscrapers",
+        "Religious temples or places of worship"
+      ],
+      "themes": [
+        "Luxurious",
+        "Golden",
+        "Airy",
+        "Captivating",
+        "Impressive",
+        "Extravagant",
+        "Sacred"
+      ]
+    },
+    "pressao": {
+      "name": "Cult",
+      "desc": "The idol attracts devoted followers. Increases the number of loyal cultists with each pressure advance, acting for the benefit of the sin."
+    },
+    "execution": {
+      "attacks_with": "Well-honed blades, common firearms, thin, flexible claws, psychic voice commands.",
+      "stress": {
+        "1": 6,
+        "2-3": 3,
+        "4+": 2
+      },
+      "complications": [
+        "Incite a crowd",
+        "Captivate someone",
+        "Blind with glory",
+        "Overwhelm with emotion",
+        "Force the revelation of secrets",
+        "Disarm someone",
+        "Trigger hallucinations",
+        "Add a spectator",
+        "Use a domain"
+      ],
+      "threats": [
+        "Overwhelming mental command",
+        "Quick blade attack",
+        "Using cultists as human shields",
+        "Emergence of new lesser monsters",
+        "Use a domain"
+      ]
+    },
+    "minions": [
+      {
+        "name": "Cultists",
+        "desc": "Ordinary humans devoted to the idol. Can carry improvised weapons.",
+        "talisman": "2 (individual), 4 (group)"
+      },
+      {
+        "name": "Apostle",
+        "desc": "Monster molded by supernatural force and mutant blades.",
+        "talisman": "4 + CAT"
+      }
+    ],
+    "domains": [
+      {
+        "id": 1,
+        "name": "Toys for Men",
+        "desc": "Plays with others' flesh. Cultists keep moving even when dead or broken (+1 segment on the execution talisman)."
+      },
+      {
+        "id": 2,
+        "name": "Elevation of the Countless Mass",
+        "desc": "The idol can elevate its cult members to lesser sins during combat scenes."
+      },
+      {
+        "id": 3,
+        "name": "Matrimony",
+        "desc": "Automatically fuses two exorcists into a single entity. With each '1' rolled, the consequences of the fusion intensify — loss of control, shared stress, and gradual transformation."
+      },
+      {
+        "id": 4,
+        "name": "That Flexible Flesh",
+        "desc": "Reveals itself in the middle of a scene where it was disguised as an ally. Can duplicate itself as one of the exorcists."
+      },
+      {
+        "id": 5,
+        "name": "Asleep, I Saw a Form in the Door",
+        "desc": "Whenever exorcists rest, they make a luck roll; on a 1, they suffer an affliction. Can force the group to rest under nightmares."
+      },
+      {
+        "id": 6,
+        "name": "Conquering the Ears",
+        "desc": "Adds ordinary humans to the cult. Can utter an unspeakable word that inflicts 3d3 stress on exorcists."
+      },
+      {
+        "id": 7,
+        "name": "The Glory",
+        "desc": "Assumes a glorious form that blinds or stuns those who look. The exorcist sees who they love and suffers stress when harming the idol. The idol's talisman gains +2 length."
+      },
+      {
+        "id": 8,
+        "name": "The Perfumed Lips of a Whispering God",
+        "desc": "Cultists use firearms and armor. If there is noise, the exposure talisman increases and the police attempt to arrest the exorcists."
+      }
+    ]
+  },
+  {
+    "id": "cao",
+    "name": "Dog",
+    "canonical": true,
+    "num": "III",
+    "emotion": "Revenge",
+    "manifests_in": [
+      "Murder victims",
+      "Someone who suffered a deep injustice at the hands of someone in power (boss, bank, landlord)",
+      "Someone deeply wronged, bullied, or abused by a specific group of people"
+    ],
+    "description": "Fierce and violent, guard Dogs are extremely dangerous savage sins, the personification of fury. They are born from the burning desire for revenge.",
+    "appearance": "Active and constantly moving sins. They take animal form (quadrupeds with prominent teeth and spurs). They emit extreme heat from their bodies.",
+    "behavior": "They are the least communicative, acting like wild beasts focused on hunting, mutilating, and killing their grudge targets.",
+    "traumas": [
+      "Who wronged you?",
+      "How were you harmed?",
+      "What are you not willing to sacrifice?"
+    ],
+    "palacio": {
+      "desc": "A simple, incoherent, hostile landscape of strong winds, torrential rain, and intense flames. The palace moves along with the dog.",
+      "typical_places": [
+        "Abandoned buildings",
+        "Drainage canals",
+        "Junkyards",
+        "Burned cars",
+        "Tree hollows"
+      ],
+      "themes": [
+        "Infernal",
+        "Bloody",
+        "Arid",
+        "Inhospitable",
+        "Fierce",
+        "Chaotic"
+      ]
+    },
+    "pressao": {
+      "name": "Grudge",
+      "desc": "The dog pursues up to three specific human targets of its host. The pressure dictates how close the dog is to reaching them."
+    },
+    "execution": {
+      "attacks_with": "Needle-shaped teeth, razor-sharp claws, bony spurs, sickle-shaped blades.",
+      "stress": {
+        "1": 6,
+        "2-3": 3,
+        "4+": 2
+      },
+      "complications": [
+        "Move faster than the eye can see",
+        "Set everything on fire",
+        "Release steam or massive heat",
+        "Become enraged",
+        "Increase in size and strength",
+        "Use a domain"
+      ],
+      "threats": [
+        "Split someone in two",
+        "Tear civilians apart",
+        "Spit torrents of boiling blood",
+        "Hurl exorcists through walls",
+        "Use a domain"
+      ]
+    },
+    "minions": [],
+    "domains": [
+      {
+        "id": 1,
+        "name": "A Trembling Thing Through a Dark Corridor",
+        "desc": "Feeds on civilian fear to reduce damage taken. Exorcists must spend stress or reveal their worst fears to attack it."
+      },
+      {
+        "id": 2,
+        "name": "Turning the Blades, It Laughs at Your Fragility",
+        "desc": "Skin resistant to common weapons. Slashes dealt to its execution talisman are reduced to 1 (1d6 luck), unless they are part of teamwork."
+      },
+      {
+        "id": 3,
+        "name": "The Capture of the Deer",
+        "desc": "Suppresses its fury to act as a stealthy hunter. Pursues a chosen exorcist, causing visions and stress."
+      },
+      {
+        "id": 4,
+        "name": "The Annihilation of the Wicked",
+        "desc": "Fused with firearms. Its attacks gain CAT+2 range. Can disarm exorcists and absorb their weapons to heal. Gains +2 talisman length."
+      },
+      {
+        "id": 5,
+        "name": "The Fattening of Rage",
+        "desc": "Heals 2 execution segments upon killing civilians. If it kills one of its grudge targets, gains +2 execution segments and +1 stress damage."
+      },
+      {
+        "id": 6,
+        "name": "Rebellion Against Heaven",
+        "desc": "Mundanes become hostile to exorcists. Exorcists at odds can duel each other, gaining XP but prevented from doing teamwork."
+      },
+      {
+        "id": 7,
+        "name": "The Measured Weight of Death",
+        "desc": "Takes -1 slash on its talisman. Has a specific mythological weakness (silver, iron, fire, cold, water, sun) that exorcists must expose."
+      },
+      {
+        "id": 8,
+        "name": "Bloodying the Steel",
+        "desc": "Fury is contagious. Gives the wounded exorcist the Infectious Grudge affliction, granting +1D on violence but with a 2 stress penalty."
+      }
+    ]
+  },
+  {
+    "id": "centopeia",
+    "name": "Centipede",
+    "canonical": true,
+    "num": "IV",
+    "emotion": "Hatred",
+    "manifests_in": [
+      "Exhausted office workers, students, homeless people, heads of large corporations, or anyone pushed to the limit",
+      "People who fantasize about a terrible disaster that saves them from their circumstances",
+      "People with deep misanthropy"
+    ],
+    "description": "Centipede sins have a horrible, putrid reputation. They are born from the desire for escapism through the death and destruction of the social environment.",
+    "appearance": "Giant insectoid abominations equipped with corrosive venom harmful to human life.",
+    "behavior": "Their only motivation is hatred. They hate the world, exorcists, and even the host themselves, but protect the latter to witness the horrors.",
+    "traumas": [
+      "What are you trying to escape from?",
+      "What do you hate most about humanity?",
+      "What do you most regret?"
+    ],
+    "palacio": {
+      "desc": "Damp labyrinthine spaces, sewers, or warehouses infested with the sin's cocoons and eggs.",
+      "typical_places": [
+        "Closed warehouses or abandoned ports",
+        "Sewer and metro tunnels",
+        "Basements of large factories"
+      ],
+      "themes": [
+        "Putrid",
+        "Insectoid",
+        "Venomous",
+        "Corrosive",
+        "Suffocating",
+        "Damp"
+      ]
+    },
+    "pressao": {
+      "name": "Contagion",
+      "desc": "The venom infects the local population and ecosystem. Civilian casualties increase with each pressure advance."
+    },
+    "execution": {
+      "attacks_with": "Dripping fangs, numerous claws, sinuous body, pressurized spit.",
+      "stress": {
+        "1": 6,
+        "2-3": 3,
+        "4+": 2
+      },
+      "complications": [
+        "Flood area with acid venom",
+        "Bring down structures",
+        "Hide in the walls",
+        "Summon broods",
+        "Use a domain"
+      ],
+      "threats": [
+        "Dissolve exorcists with acid",
+        "Kidnap civilians to infect them",
+        "Collapse ceilings or tunnels",
+        "Give the Blinding Fever affliction"
+      ]
+    },
+    "minions": [
+      {
+        "name": "Trampler",
+        "desc": "Huge, armored sin, immune to conventional attacks.",
+        "talisman": "4"
+      },
+      {
+        "name": "Pursuers",
+        "desc": "Appear in pairs. They are agile and attack from the shadows with claws.",
+        "talisman": "4 (shared)"
+      }
+    ],
+    "domains": [
+      {
+        "id": 1,
+        "name": "The Heralds of Venom",
+        "desc": "The venom boils and scars on any roll. Minions spit at short range and the centipede spits at long range like a rifle."
+      },
+      {
+        "id": 2,
+        "name": "Crumbling in the Dark Womb",
+        "desc": "Corrosive aerosol destroys the area. Common items taken out degrade. Structures collapse with each pressure increase."
+      },
+      {
+        "id": 3,
+        "name": "The Knights of Decay",
+        "desc": "The horde gains armored, dangerous infected minions that attack as a group."
+      },
+      {
+        "id": 4,
+        "name": "Gently Sliding Down the Abyss's Slope",
+        "desc": "The venom causes catastrophic spread. Doubles civilian casualties. NPCs may be secretly infected."
+      },
+      {
+        "id": 5,
+        "name": "My Children Crawl Silently",
+        "desc": "Opponents gain chameleon skin, appearing in pairs and acting stealthily."
+      },
+      {
+        "id": 6,
+        "name": "In the Core, My Rot Unfolds",
+        "desc": "Upon exhausting the talisman, regenerates 6 points and assumes an unstable but deadly form (+1 damage, -1 damage taken), dying at the end of the round."
+      },
+      {
+        "id": 7,
+        "name": "I Hide My Knife in Soft Walls",
+        "desc": "Arms the area with biological traps that cause stress, hooks, or afflictions."
+      },
+      {
+        "id": 8,
+        "name": "Making Friends with the Slaughterhouse",
+        "desc": "The sin grows stronger by killing civilians. If exorcists rest without saving survivors, the centipede heals its talisman."
+      }
+    ]
+  },
+  {
+    "id": "sapo",
+    "name": "Toad",
+    "canonical": true,
+    "num": "V",
+    "emotion": "Indulgence",
+    "manifests_in": [
+      "People suffering from severe housing, employment, or food insecurity",
+      "People who are exploited at work",
+      "People with crushing financial debt"
+    ],
+    "description": "Toads are intelligent, greedy, and cunning sins. They are born from material deprivation and the desire to accumulate wealth to compensate for misery.",
+    "appearance": "Robust creatures with long, prehensile tongues. Mouth with spatial distortion capable of swallowing entire rooms of objects.",
+    "behavior": "They enjoy talking, mocking, and negotiating with exorcists. They are greedy and obsessive with jewels, money, and possessions.",
+    "traumas": [
+      "What do you deserve that was denied to you?",
+      "While you were starving, who was feasting?",
+      "Where do you draw the line?"
+    ],
+    "palacio": {
+      "desc": "Bank vaults, casinos, or opulent mansions full of stolen items and excessive luxury.",
+      "typical_places": [
+        "Clandestine casinos or private luxury clubs",
+        "Large garages full of stolen cars",
+        "Underground vaults"
+      ],
+      "themes": [
+        "Opulent",
+        "Luminous",
+        "Golden",
+        "Greedy",
+        "Damp",
+        "Fragrant"
+      ]
+    },
+    "pressao": {
+      "name": "Greed",
+      "desc": "Steals the wealth and belongings of the area. Items from the exorcists' kits can be confiscated with each pressure advance."
+    },
+    "execution": {
+      "attacks_with": "Crushing punches and kicks, muscular tongue, pressurized blood jet through the eyes.",
+      "stress": {
+        "1": 6,
+        "2-3": 3,
+        "4+": 2
+      },
+      "complications": [
+        "Steal equipment",
+        "Swallow an exorcist",
+        "Bribe allies",
+        "Distract with jewels and coins",
+        "Use a domain"
+      ],
+      "threats": [
+        "Regurgitate minions",
+        "Trap exorcists in its throat",
+        "Collapse of treasure piles",
+        "Give the Greedy affliction"
+      ]
+    },
+    "minions": [
+      {
+        "name": "Toadlets",
+        "desc": "Small amphibian creatures that follow the toad's orders. Attack in groups with tongues and sharp teeth.",
+        "talisman": "3 (individual), 5 (group), 7 (massive group)"
+      }
+    ],
+    "domains": [
+      {
+        "id": 1,
+        "name": "Hotel for One",
+        "desc": "Uses its mouth to suck exorcists into a dimensional prison-space in its throat, isolating them from the fight. The space's talisman gains +2 length."
+      },
+      {
+        "id": 2,
+        "name": "Light Hands",
+        "desc": "Stealthy when stealing objects. Always steals the exorcists' powers. Each additional '1' increases the talisman length of the stolen power."
+      },
+      {
+        "id": 3,
+        "name": "The Great Adversary",
+        "desc": "The toad can transform matter into gold and wealth. By touching an object or wall, alters its rigidity or weight."
+      },
+      {
+        "id": 4,
+        "name": "Devouring the Earth",
+        "desc": "Can dislocate its jaw and attempt to swallow the palace or scene elements, destroying the environment. On success, inflicts 3d3 stress on exorcists."
+      },
+      {
+        "id": 5,
+        "name": "Traumatic Regurgitation",
+        "desc": "Regurgitates mundane objects or accumulated vestiges to create physical blockages or attack."
+      },
+      {
+        "id": 6,
+        "name": "Absolute Bribery",
+        "desc": "Negotiates bribes with exorcists or civilians. Offers scrips in exchange for pacts or to make them hesitate."
+      },
+      {
+        "id": 7,
+        "name": "The Toad's Leap",
+        "desc": "Can make impossible leaps in the air and land with devastating impact on the scene."
+      },
+      {
+        "id": 8,
+        "name": "Wide Open Mouth",
+        "desc": "Mouth distorts spatial physics. Can attract all projectiles or dissipate vector forces in the scene."
+      }
+    ]
+  },
+  {
+    "id": "lorde",
+    "name": "Lord",
+    "canonical": true,
+    "num": "VI",
+    "emotion": "Fear",
+    "manifests_in": [
+      "People who have lost loved ones due to illness or accidents",
+      "People whose financial situation and social position have changed drastically",
+      "People affected by serious illnesses or accidents that permanently changed their lives"
+    ],
+    "description": "Lords are just and moralistic sins, driven by a deep and irrational desire for stability. Born from the pain of loss, they create prison-dimensions to prevent change.",
+    "appearance": "Imposing figures in resilient armor, resembling angels, gods, police officers, or armed guardians.",
+    "behavior": "Polite, refined, and deliberate. They justify their actions in the language of law or religion. They consider their palace a protective gift for the host.",
+    "traumas": [
+      "What have you lost?",
+      "What injustice can you not tolerate?",
+      "Who did you regret leaving behind when you ascended to your Kingdom?"
+    ],
+    "palacio": {
+      "desc": "A royal kingdom or imposing skyscraper full of servants and humans who have been integrated into the sin's protective illusion.",
+      "typical_places": [
+        "Royal palaces or monumental cathedrals",
+        "Large corporate headquarters or gleaming skyscrapers",
+        "Majestic temples and government buildings"
+      ],
+      "themes": [
+        "Imposing",
+        "Grandiose",
+        "Augustan",
+        "Monumental",
+        "Stony",
+        "Sacred"
+      ]
+    },
+    "pressao": {
+      "name": "Kingdom",
+      "desc": "The lord overlays a parasitic reality over ours. Civilians and entire neighborhoods are dragged inside the kingdom without realizing it."
+    },
+    "execution": {
+      "attacks_with": "Well-honed blades, thin, flexible claws, psychic voice commands.",
+      "stress": {
+        "1": 6,
+        "2-3": 3,
+        "4+": 2
+      },
+      "complications": [
+        "Alter gravity in the palace",
+        "Dissipate psychic spells",
+        "Trap exorcists under the kingdom's illusion",
+        "Blind with divine light"
+      ],
+      "threats": [
+        "Banish exorcists from reality",
+        "Order servant attack",
+        "Destroy the palace exit",
+        "Give the Banished affliction"
+      ]
+    },
+    "minions": [
+      {
+        "name": "Guardian",
+        "desc": "Armored servant that polices the palace.",
+        "talisman": "5"
+      }
+    ],
+    "domains": [
+      {
+        "id": 1,
+        "name": "Restriction of Manifestation",
+        "desc": "Domain over the kingdom. Creates objects, inverts gravity, alters the weather or the layout of buildings, and dissipates lasting psychic powers."
+      },
+      {
+        "id": 2,
+        "name": "Restriction of Superiority",
+        "desc": "The Lord punishes those who do not follow the Kingdom's rules. Alternates stances each round: Honorable Combat, Grand Combat, or Duel."
+      },
+      {
+        "id": 3,
+        "name": "Restriction of Banishment",
+        "desc": "Banishes exorcists from reality. Gives the Banished affliction (physical interactions are difficult, suffers stress when pressure increases)."
+      },
+      {
+        "id": 4,
+        "name": "Restriction of Control",
+        "desc": "Prohibits actions in the scene (e.g., swearing, invoking the Lord's name). If violated, they cause immediate stress."
+      },
+      {
+        "id": 5,
+        "name": "The Host's Castle",
+        "desc": "Impenetrable illusion. Reduces stress suffered from the lord's reactions by 1 while the host is happy."
+      },
+      {
+        "id": 6,
+        "name": "Rules of Etiquette",
+        "desc": "Imposes behavioral rules. Characters acting outside of etiquette have their actions considered difficult."
+      },
+      {
+        "id": 7,
+        "name": "Prosperous Kingdom",
+        "desc": "The kingdom drains the area's vitality. Increases the speed of Kingdom spread and prevents healing during rest."
+      },
+      {
+        "id": 8,
+        "name": "Elite Guard",
+        "desc": "Summons Decurions with enhanced talisman and ranged weapons to patrol the scene."
+      }
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "id": "gamesff3",
+  "name": "Games for Freaks Vol. 3 — Agendas & Blasphemies",
+  "version": "1.0",
+  "author": "Games for Freaks",
+  "description": "Supplement containing the Agendas (Broken, Doll, Cradle) and Blasphemies (Word, Soundtrack, Wire) from Volume 3.",
+  "enabled": false,
+  "isBase": false,
+  "data": {
+    "agendas": {
+      "broken": {
+        "name": "Broken",
+        "desc": "This agenda is a way to end an exorcist's story. It may not be the best way.",
+        "icon": "./assets/agendas/icons/Quebrado.webp",
+        "normal": [
+          "Kill"
+        ],
+        "bold": [
+          "Kill"
+        ],
+        "habilidades": [
+          {
+            "name": "Torn at the Seams",
+            "desc": "After pressure rises during a mission, mark 1d3 sin boxes. When you have sin overflow, you can choose between losing and keeping control. Retire your exorcist after the current mission. Face execution or exile. There is nothing left for you here."
+          }
+        ]
+      },
+      "doll": {
+        "name": "Doll",
+        "desc": "You were made to be shaped, sustained, and cared for.",
+        "icon": "./assets/agendas/icons/Boneca.webp",
+        "normal": [
+          "Give up on something"
+        ],
+        "bold": [
+          "Do something painful voluntarily"
+        ],
+        "habilidades": [
+          {
+            "name": "Crumble",
+            "desc": "Once per hunt, you can throw yourself to the ground. In this state, humans, sins, and exorcists will treat you as dead, gravely ill, or unconscious. This may distract them and they will not choose you as a target in conflict scenes. The effect ends when you take any action that requires a roll or at the end of the scene. Works only once against the same target."
+          },
+          {
+            "name": "Soft",
+            "desc": "You roll -1D for difficult actions (even if they become easier afterwards), but always gain +1D for direct actions (actions that are neither difficult nor risky, such as gathering information)."
+          },
+          {
+            "name": "Pincushion",
+            "desc": "Exorcists at close range from you can always suffer wounds or afflictions in your place. If they do, they gain 1 XP, but no more than once per mission."
+          },
+          {
+            "name": "Companion",
+            "desc": "When you participate in teamwork, the lead roller always suffers 2 nonlethal stress, but always gains +1D."
+          },
+          {
+            "name": "Daydream",
+            "desc": "At the start of any conflict scene, you can recover all your stress. If you do, roll at most 1D on actions for the rest of the scene."
+          }
+        ]
+      },
+      "cradle": {
+        "name": "Cradle",
+        "desc": "When choosing this agenda, having one of its powers, or fulfilling your bolded item, choose another character to be your Ward. You may swap your Ward between hunts.",
+        "icon": "./assets/agendas/icons/Berco.webp",
+        "normal": [
+          "Protect your Ward from the consequences of their actions"
+        ],
+        "bold": [
+          "Let your Ward suffer"
+        ],
+        "habilidades": [
+          {
+            "name": "Matriphagia",
+            "desc": "Your Ward can deal 3 nonlethal, irreducible stress to you instead of spending a psychic pulse, as long as they are within close range of you."
+          },
+          {
+            "name": "Coddle",
+            "desc": "Once per conflict scene, you can take the defend or assist action for free, targeting only your Ward without spending your action in the round."
+          },
+          {
+            "name": "Fragile",
+            "desc": "You gain +2 maximum stress, but can no longer relieve stress by any means other than suffering a wound."
+          },
+          {
+            "name": "Sin-Eater",
+            "desc": "Once per hunt, when you make a warm gesture to your Ward (a smile, a hug, a caress), you can transfer any amount of stress and up to one hook or affliction from them to yourself. This can cause a wound or kill you."
+          },
+          {
+            "name": "Offering",
+            "desc": "While within close range of your Ward, you can gain 1d3+1 sin to prevent any wound to them, or 1d6+2 to prevent instant death. Each trigger only fires once per hunt. Your Ward remains with 1 stress below maximum."
+          }
+        ]
+      }
+    },
+    "blasphemies": [
+      {
+        "id": "palavra",
+        "name": "Word",
+        "img": "assets/blasf/PALAVRA.jpg",
+        "desc": "Your word is law. Your powers depend on your speech and gain a devastating, unrestricted cascade effect if used repeatedly before resting.",
+        "passive": "<strong>Your Word is Law:</strong><br>Your powers have no effect if you cannot speak or if sound is suppressed.<br>Using powers of this blasphemy more than once before resting causes mandatory, cumulative cascade effects:<br>• Second time: +1 CAT (min. CAT 2), suffers 1 irreducible stress.<br>• Third time: +2 CAT (min. CAT 3, max. CAT 7), +1D, suffers 3 irreducible stresses. Everyone within close range gains the Deafened affliction.<br>• Fourth time: The power resolves at automatic CAT 7 without rolling. Then, you suffer irreversible instant death. Everyone within close range is permanently deaf.",
+        "powers": [
+          {
+            "name": "The Verb",
+            "desc": "<strong>[Instant, Short | Requires 1 pulse]</strong><br>You say 'Snap,' 'Click,' or 'Pop' and produce a corresponding physical effect (open a lock, break a weapon, burst a tire).<br>Roll PSYCHE if the action is risky or inflicts damage, spending the pulse only on success."
+          },
+          {
+            "name": "Narrate",
+            "desc": "<strong>[Instant, Short | Requires 1 pulse]</strong><br>Choose a group of up to CAT size and narrate a declarative phrase in the past tense (e.g., 'He was opening the door').<br>Roll PSYCHE; on success, the narrative becomes instant physical reality."
+          },
+          {
+            "name": "Die",
+            "desc": "<strong>[Curse, Instant | Requires 1 pulse]</strong><br>You say 'die' and instantly kill all ordinary humans in an area of up to CAT size centered on you.<br>Requires no roll. If used to kill one person, permanently mark 1 sin box; if killing more than one, permanently mark 1d3 sin boxes."
+          },
+          {
+            "name": "Bang",
+            "desc": "<strong>[Instant, CAT Range | Requires 1 pulse]</strong><br>You say 'bang.' A massive psychic pressure wave hits an area of up to ½ CAT.<br>Roll PSYCHE for its effects.<br>• Gain +1D if the environment is silent.<br>• Gain +1D if in a location with good acoustics (theater, stadium, canyon)."
+          },
+          {
+            "name": "Silence",
+            "desc": "<strong>[Transmutation, 1 scene, Long | Requires 1 pulse]</strong><br>You say 'silence' and choose an area of up to CAT size. Any sound in the area completely ceases.<br>Mechanisms that depend on noise (motors, weapons, explosives) stop functioning and powers that create noise fail."
+          }
+        ],
+        "fato": "Continued use of the Word blasphemy can cause permanent vocal cord rupture and psychic distortion.<br>Ref: CASTLE Archive 1998."
+      },
+      {
+        "id": "trilha",
+        "name": "Soundtrack",
+        "img": "assets/blasf/TRILHA.jpg",
+        "desc": "You possess a cursed psychic music player. Build a real playlist of 6 songs at the start of each hunt. Your songs come to life and affect psychic reality.",
+        "passive": "<strong>Psychic Playlist:</strong><br>You possess a psychic tape/CD player with headphones. Build a playlist of 6 songs at the start of the hunt.<br>The songs can be heard in-game coming from your player, from the environment, or from nowhere like a cinematic soundtrack.",
+        "powers": [
+          {
+            "name": "Vibe",
+            "desc": "<strong>[Enchantment, Yourself, 1 scene | No pulse cost]</strong><br>At the start of the scene, play a song from your playlist and set the vibe as Melancholic, Chill, or Anguished:<br>• Melancholic: You or an ally relieves 1 stress when failing a roll.<br>• Anguished: Upon gaining a wound, hook, or affliction, gain +1D on your next action.<br>• Chill: At the end of the scene, if there were no difficult or risky rolls, everyone within close range recovers 1 stress."
+          },
+          {
+            "name": "Shuffle",
+            "desc": "<strong>[Transmutation, Instant, CAT Area | Requires 1 pulse]</strong><br>Choose objects, vehicles, or people of up to ½ CAT in the area. Instantly swap their positions and physical momentum between each other.<br>Roll PSYCHE if attempting to swap targets of very different masses."
+          },
+          {
+            "name": "Repeat",
+            "desc": "<strong>[Enchantment, Entire mission | Requires 1 pulse]</strong><br>Record an action of up to 10 seconds performed by you or an ally.<br>Spend 1 pulse to play back a tangible psychic double that repeats the exact recorded action and can cause real physical damage."
+          },
+          {
+            "name": "Title",
+            "desc": "<strong>[Invocation, Instant, Short | Requires 1 pulse]</strong><br>Play a song from the playlist and physically manifest a construct based on the title (an object, person, animal, or elemental force such as fire/rain/wind/pressure) of up to CAT size."
+          },
+          {
+            "name": "Boost",
+            "desc": "<strong>[Instant, Short | Requires 1 pulse]</strong><br>Before using a blasphemy, choose a song and note the first 3 digits of the song's timestamp (e.g., 3:45 -> 3, 4, 5). For each die rolled that matches the numbers, gain +1 additional CAT (max. CAT 7)."
+          }
+        ],
+        "fato": "Cursed music player objects are archived in Temerity section 52.<br>They have a legion of fans among CAIN's junior staff."
+      },
+      {
+        "id": "fio",
+        "name": "Wire",
+        "img": "assets/blasf/FIO.jpg",
+        "desc": "Manipulate electrical currents, phone lines, and digital psychic network data.",
+        "passive": "<strong>Main Artery:</strong><br>You possess a psychic mobile phone ('Main Artery') that takes no PK and can be manifested in your hands at will.<br>You can call any human, sin, or exorcist. If the target has no phone, a temporary psychic device manifests in their hand.",
+        "powers": [
+          {
+            "name": "Call",
+            "desc": "<strong>[Instant | Requires 1 pulse]</strong><br>Call any person, sin, or exorcist. Spend the pulse only if the person answers.<br>If the target has no phone, a psychic phone will materialize in their hands to answer."
+          },
+          {
+            "name": "Terminal",
+            "desc": "<strong>[Yourself, Enchantment, 1 scene | Requires 1 pulse]</strong><br>Manifest a computer terminal that emerges from your chest or back.<br>Allows ultra-fast internet connection. Any ally interacting with the terminal can use their skills to investigate and gains +1D on the first search."
+          },
+          {
+            "name": "Keyboard",
+            "desc": "<strong>[Adjacent, Curse, 1 scene | Requires 1 pulse]</strong><br>Unfold a psychic keyboard from any object, vehicle, or person.<br>By typing on the keyboard, you can interact with the target as if it were a computer, rolling PSYCHE or the interfacing skill."
+          },
+          {
+            "name": "Disc",
+            "desc": "<strong>[Instant, Adjacent | Requires 1 pulse]</strong><br>Touch a willing ally, human, or object of up to CAT size and store it as a psychic CD. You can carry up to CAT+1 CDs.<br>By touching the CD again or breaking it, the contents are released unharmed."
+          },
+          {
+            "name": "Surge",
+            "desc": "<strong>[CAT+2 Range, Instant | Requires 1 pulse]</strong><br>Dematerialize yourself and nearby allies into a psychic electrical charge and travel instantly through phone lines or network cables to the destination."
+          }
+        ],
+        "fato": "Involuntary temporary bodily modifications (such as keyboards or wires emerging from the skin) are common when using Wire.<br>They return to normal within 1-2 hours."
+      }
+    ]
+  }
+}
