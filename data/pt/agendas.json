@@ -9,7 +9,7 @@
     "bold": [
       "Contenha-se"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Insetos!!!",
         "desc": "Você tem +1D ao infligir dano ou violência contra oponentes humanos."
@@ -28,7 +28,7 @@
       },
       {
         "name": "Dentes à Mostra",
-        "desc": "Enquanto você tiver dois ou mais ferimentos ou aflições, não será mais difícil usar capacidades mundanas contra forças sobrenaturais e suas habilidades físicas humanas serão 1/2 CAT em vez de CAT 0."
+        "desc": "Enquanto você tiver dois ou mais ferimentos ou aflições, não será mais difícil usar capacidades mundanas contra forças sobrenaturais e suas abilities físicas humanas serão 1/2 CAT em vez de CAT 0."
       }
     ]
   },
@@ -42,7 +42,7 @@
     "bold": [
       "Demonstre sua distância da humanidade"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Carnexeno",
         "desc": "Ignore '1's rolados para ganhar Pecado."
@@ -75,7 +75,7 @@
     "bold": [
       "Não deixe ninguém para trás"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Muralha de Ferro",
         "desc": "Quando você defende alguém próximo em uma cena de conflito, você pode optar por transferir quaisquer consequências sofridas pelo seu alvo para você."
@@ -108,7 +108,7 @@
     "bold": [
       "Escolha a solução mais simples"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Jack!",
         "desc": "No início de uma missão, escolha uma perícia que você tenha em 0. Você pode melhorá-la para 1 apenas durante a duração desta missão."
@@ -141,7 +141,7 @@
     "bold": [
       "Deixe a máscara escorregar"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Do Pó ao Pó",
         "desc": "O estresse não se transfere mais quando você sofre um ferimento (o excesso é perdido)."
@@ -174,7 +174,7 @@
     "bold": [
       "Desobedecer ordens"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Terno Preto",
         "desc": "Ganhe +1D em ações para liderar, intimidar ou dar ordens a humanos comuns."
@@ -207,7 +207,7 @@
     "bold": [
       "Faça uma pausa"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "O Trabalho",
         "desc": "Você pode optar por ganhar +1D em qualquer rolagem. Se o fizer, sofra 1 de estresse para cada vez que usou esta habilidade nesta missão."
@@ -240,7 +240,7 @@
     "bold": [
       "Descubra verdades ocultas ou desconfortáveis sobre você mesmo"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Joia Psíquica",
         "desc": "Na primeira vez que você ou um aliado responder a uma pergunta sobre o trauma de um Pecado, recupere 1 pulso psíquico, recupere 1 pecado e elimine 1 ponto de estresse."
@@ -273,7 +273,7 @@
     "bold": [
       "Deixe que outro assuma a liderança"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Lançador de vento da sorte",
         "desc": "Quando você rola 0d para qualquer ação, nunca é difícil."
@@ -306,7 +306,7 @@
     "bold": [
       "Deixe seu rival ofuscar você"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Alcançar",
         "desc": "Se o seu rival tiver menos estresse do que você quando a pressão aumentar, apague 1 estresse. Se ele tiver mais pulsos psíquicos, recupere 1 pulso psíquico."
@@ -339,7 +339,7 @@
     "bold": [
       "Convide a catástrofe"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Técnica Perfeita",
         "desc": "Escolha uma blasfêmia. Uma vez por caçada, você pode aumentar o CAT dessa blasfêmia em +1 temporariamente por uma cena inteira."
@@ -372,7 +372,7 @@
     "bold": [
       "Faça algo altruísta"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Codependência",
         "desc": "Quando alguém ajuda você, você pode trocar 1 estresse (de você para essa pessoa ou vice-versa)."
@@ -405,7 +405,7 @@
     "bold": [
       "Doe algo valioso"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Estimulantes do mercado negro",
         "desc": "Você pode gastar até 2 scrips por missão como um pulso psíquico."
@@ -438,7 +438,7 @@
     "bold": [
       "Machuque alguém intencionalmente"
     ],
-    "habilidades": [
+    "abilities": [
       {
         "name": "Curandeiro",
         "desc": "Na primeira vez que você descansar em uma caçada, ganhe um dado de descanso extra."
