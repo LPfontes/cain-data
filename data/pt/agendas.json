@@ -2,7 +2,7 @@
   "beast": {
     "name": "Besta",
     "desc": "",
-    "icon": "./assets/agendas/icons/Besta.webp",
+    "icon": "./assets/agendas/icons/Beast.webp",
     "normal": [
       "Participe de uma luta"
     ],
@@ -35,7 +35,7 @@
   "condemned": {
     "name": "Condenado",
     "desc": "Você só pode escolher esta agenda se já tiver uma marca de pecado.<br> Se for sua primeira agenda, você pode começar com uma marca de pecado de sua escolha (escolha apenas a localização, ainda role 1d6 para a habilidade).",
-    "icon": "./assets/agendas/icons/Condenado.webp",
+    "icon": "./assets/agendas/icons/Doomed.webp",
     "normal": [
       "Demonstre sua humanidade"
     ],
@@ -68,7 +68,7 @@
   "guardian": {
     "name": "Guardião",
     "desc": "Você não recebe pagamento nem XP pelos mortos.",
-    "icon": "./assets/agendas/icons/Guardiao.webp",
+    "icon": "./assets/agendas/icons/Guardian.webp",
     "normal": [
       "Proteja seu povo"
     ],
@@ -101,7 +101,7 @@
   "firefly": {
     "name": "Vaga-Lume",
     "desc": "",
-    "icon": "./assets/agendas/icons/Vaga_lume.webp",
+    "icon": "./assets/agendas/icons/Firebug.webp",
     "normal": [
       "Resolva problemas de forma criativa"
     ],
@@ -134,7 +134,7 @@
   "solitary": {
     "name": "Solitário",
     "desc": "",
-    "icon": "./assets/agendas/icons/Solitario.webp",
+    "icon": "./assets/agendas/icons/Loner.webp",
     "normal": [
       "Demonstre sua habilidade superior"
     ],
@@ -167,7 +167,7 @@
   "rigorous": {
     "name": "Rigoroso",
     "desc": "ERRADIQUE OS VERMES",
-    "icon": "./assets/agendas/icons/Rigoroso.webp",
+    "icon": "./assets/agendas/icons/Hardline.webp",
     "normal": [
       "Seguir ordens"
     ],
@@ -200,7 +200,7 @@
   "machine": {
     "name": "Máquina",
     "desc": "SE O SEU GRUPO DESCANSAR, VOCÊ PODE ESCOLHER SE EXCLUIR DO DESCANSO",
-    "icon": "./assets/agendas/icons/Maquina.webp",
+    "icon": "./assets/agendas/icons/Machine.webp",
     "normal": [
       "Priorize o trabalho em detrimento das suas necessidades pessoais"
     ],
@@ -233,7 +233,7 @@
   "moth": {
     "name": "Mariposa",
     "desc": "",
-    "icon": "./assets/agendas/icons/Mariposa.webp",
+    "icon": "./assets/agendas/icons/Moth.webp",
     "normal": [
       "Descubra verdades ocultas ou desconfortáveis sobre o mundo"
     ],
@@ -266,7 +266,7 @@
   "torch": {
     "name": "Tocha",
     "desc": "",
-    "icon": "./assets/agendas/icons/Tocha.webp",
+    "icon": "./assets/agendas/icons/Torch.webp",
     "normal": [
       "Lidere o caminho"
     ],
@@ -299,7 +299,7 @@
   "sombra": {
     "name": "Sombra",
     "desc": "Ao escolher esta agenda, escolha outro personagem para ser seu rival.",
-    "icon": "./assets/agendas/icons/Sombra.webp",
+    "icon": "./assets/agendas/icons/Shadow.webp",
     "normal": [
       "Ofusque seu rival"
     ],
@@ -332,7 +332,7 @@
   "feiticeiro": {
     "name": "Feiticeiro",
     "desc": "",
-    "icon": "./assets/agendas/icons/Feiticeiro.webp",
+    "icon": "./assets/agendas/icons/Sorcerer.webp",
     "normal": [
       "Demonstre seus poderes chamativos"
     ],
@@ -365,7 +365,7 @@
   "rouxinol": {
     "name": "Rouxinol",
     "desc": "Minha Agenda",
-    "icon": "./assets/agendas/icons/Rouxinol.webp",
+    "icon": "./assets/agendas/icons/Songbird.webp",
     "normal": [
       "Consiga alguém para fazer a sua vontade"
     ],
@@ -398,7 +398,7 @@
   "demonio": {
     "name": "Demônio",
     "desc": "Você pode usar scrip como pontos de kit.",
-    "icon": "./assets/agendas/icons/Demonio.webp",
+    "icon": "./assets/agendas/icons/Demon.webp",
     "normal": [
       "Enriqueça-se"
     ],
@@ -431,7 +431,7 @@
   "temperance": {
     "name": "Temperança",
     "desc": "Eles somos nós.",
-    "icon": "./assets/agendas/icons/Temperanca.webp",
+    "icon": "./assets/agendas/icons/Temperance.webp",
     "normal": [
       "Coloque as pessoas acima da missão"
     ],
