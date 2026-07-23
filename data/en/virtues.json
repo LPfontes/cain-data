@@ -204,40 +204,6 @@
           "III": "You can use Shake once again during a mission, but if you do, the GM picks the game."
         }
       }
-    },
-    {
-      "id": "temperance",
-      "name": "Temperance",
-      "title": "The Peacekeeper",
-      "desc": "Temperance is regarded as the peaceful soul of CAIN. She strongly believes that humanity's salvation demands empathy, self-control, and unconditional protection of the innocent. Though possessing elevated psychic abilities and control over suppressing forces, Temperance refuses unnecessary violence and acts to soothe her fellow Exorcists during the darkest hunts.",
-      "likes": [
-        "Sweets",
-        "Gardening",
-        "Soft Music",
-        "Meditation"
-      ],
-      "dislikes": [
-        "Unnecessary Violence",
-        "Cruelty",
-        "Rushing things"
-      ],
-      "favorite_food": [
-        "Fruit Cakes",
-        "Sweet Tea"
-      ],
-      "bond": {
-        "strictures": [
-          "Ignore for one roll by taking 1d3 nonlethal stress",
-          "You cannot harm anyone or anything.",
-          "Always roll 0d on actions that would be considered impolite or violent."
-        ],
-        "abilities": {
-          "0": "Once a mission, if you are able to eat sweets, you can relieve 1 sin.",
-          "I": "You gain the Smother blasphemy. You can use it once a mission.",
-          "II": "Sin overflow only reduces your sin overflow cap by 1 instead of 2.",
-          "III": "Your compassion soothes the area: once per mission, lower current pressure by 1 point."
-        }
-      }
     }
   ]
 }
